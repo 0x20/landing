@@ -6,7 +6,7 @@
 		<meta charset="UTF-8"/>
 		<title>Whitespace</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<meta property="og:image" content="img/preview.png" />
+		<meta property="og:image" content="https://hackerspace.gent/landing/img/preview.png" />
 
 		<link href="css/font-awesome.min.css" rel="stylesheet" type="text/css" media="all">
 		<link href="css/themify-icons.css" rel="stylesheet" type="text/css" media="all" />
