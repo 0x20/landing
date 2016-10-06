@@ -6,7 +6,7 @@
 		<meta charset="UTF-8"/>
 		<title>Whitespace</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		
+
 		<link href="css/font-awesome.min.css" rel="stylesheet" type="text/css" media="all">
 		<link href="css/themify-icons.css" rel="stylesheet" type="text/css" media="all" />
 		<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
@@ -18,7 +18,7 @@
 		<link href='https://fonts.googleapis.com/css?family=Lato:300,400%7CRaleway:100,400,300,500,600,700%7COpen+Sans:400,500,600' rel='stylesheet' type='text/css'>
 		<meta http-equiv="Refresh" content="300">
 		<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
-				
+
 	</head>
 
 <?php
@@ -165,8 +165,8 @@ foreach ($json as $k => $v) {
 					<?php } ?>
 				</ul>
 			</section>
-			
-			
+
+
 			<a id="home"></a>
 			<section>
 				<div class="container">
@@ -195,7 +195,7 @@ foreach ($json as $k => $v) {
 						</div>
 						<div class="col-md-5 col-sm-7">
 							<p>Don't worry, the hacker culture is a subculture of individuals who enjoy the intellectual challenge of creatively overcoming the limitations of current technologies to achieve novel and clever outcomes. The culture consists of, but is not limited
-								to: computing, networking, programming, music, gaming, electronics, lockpicking, woodworking, robotics, science fiction...
+								to: computing, networking, programming, music, gaming, electronics, lock picking, woodworking, robotics, science fiction...
 							</p>
 							<p>However, the defining characteristic of a hacker is not the activities performed themselves, but the manner in which it is done. A hacker is someone who invents, constructs, learns, shares, trains basic skills and is willing to think outside the
 								box to find a creative solution to a problem.
@@ -318,7 +318,7 @@ foreach ($json as $k => $v) {
 						</div>
 						<div class="col-sm-6">
 							<ul class="accordion accordion-1 one-open">
-								
+
 								<li>
 									<div class="title">
 										<h4 class="inline-block mb0">Spacecontrol</h4>
@@ -357,11 +357,11 @@ Very interesting however is the type of programming we do at the hackerspace. Of
 								</li>
 								<li>
 									<div class="title">
-										<h4 class="inline-block mb0">Lockpicking</h4>
+										<h4 class="inline-block mb0">lock picking</h4>
 									</div>
 									<div class="content">
 										<p>
-											You can pick your friends. You can pick your beer. But can you pick… a Lock? Join us on a lockpicking evening as we embark on an ancient mechanical adventure to explore the inner workings of a modern lock, first developed by the Mesopotamians and Egyptians over 4000 years ago. Lockpicking is a classic sport in the hacker community. Rather than wanting to break into something, it is a way of appreciating and learning about these mechanisms called locks.
+											You can pick your friends. You can pick your beer. But can you pick… a Lock? Join us on a lock picking evening as we embark on an ancient mechanical adventure to explore the inner workings of a modern lock, first developed by the Mesopotamians and Egyptians over 4000 years ago. Lock picking is a classic sport in the hacker community. Rather than wanting to break into something, it is a way of appreciating and learning about these mechanisms called locks.
 										</p><p>
 										<a href="img/lockpicking.jpg" data-lightbox="lockpicking"><img src="img/lockpicking.jpg"></a>
 										<a href="img/lockpicking2.jpg" data-lightbox="lockpicking"><img src="img/lockpicking2.jpg"></a>
@@ -508,7 +508,7 @@ Very interesting however is the type of programming we do at the hackerspace. Of
 								<div class="feature bordered mb30">
 									<h1 class="large"><?php echo $members_in; ?></h1>
 									<h5 class="uppercase">Humans in <br>whitespace <br></h5>
-									
+
 								</div>
 							</div>
 
@@ -525,7 +525,7 @@ Very interesting however is the type of programming we do at the hackerspace. Of
 									<h5 class="uppercase">Astronauts in<br> outer space </h5><!-- http://api.open-notify.org/astros.json -->
 								</div>
 							</div>
-							
+
 							<div class="col-sm-3 text-center">
 								<div class="feature bordered mb30">
 									<h1 class="large uppercase"><?php include "hits.php"; ?></h1>
@@ -557,7 +557,7 @@ Very interesting however is the type of programming we do at the hackerspace. Of
 				</div>
 
 			</section>
-			
+
 			<section class="page-title page-title-3 image-bg overlay parallax">
 				<div class="background-image-holder">
 					<img alt="Background Image" class="background-image" src="img/moody.jpg">
@@ -568,15 +568,15 @@ Very interesting however is the type of programming we do at the hackerspace. Of
 							<h4 class="uppercase mb0">“My primary goal of hacking was the intellectual curiosity, the seduction of adventure.”</h3>
 		                </div>
 		            </div>
-		            
+
 		        </div>
-		        
+
 		        <ol class="breadcrumb breadcrumb-2">
-		            
+
 		            <li>
 		                <a href="#">- Kevin Mitnick</a>
 		            </li>
-		            
+
 		        </ol>
 		    </section>
 
@@ -597,22 +597,22 @@ Very interesting however is the type of programming we do at the hackerspace. Of
 				</div>
 			</section>
 
-			
-			
-			
+
+
+
 			<footer class="footer-2 bg-dark text-center-xs">
 				<div class="container">
 					<div class="row">
 						<div class="col-sm-4">
 							<a href="#"><img class="image-xxs fade-half" alt="Pic" src="img/logo.png"></a>
 						</div>
-					
+
 						<div class="col-sm-4 text-center">
 							<span class="fade-half">
 								© Copyright 2016-2056 Whitespace Vzw<br>Some Rights Reserved<br />Powered by <a href="http://yolo.sexy/">YOLO Sexy Webdesign</a> and Bloemist
 							</span>
 						</div>
-					
+
 						<div class="col-sm-4 text-right text-center-xs">
 							<ul class="list-inline social-list">
 								<li><a href="https://twitter.com/HSGhent"><i class="ti-twitter-alt"></i></a></li>
@@ -624,8 +624,8 @@ Very interesting however is the type of programming we do at the hackerspace. Of
 					</div>
 				</div>
 			</footer>
-		</div>		
-				
+		</div>
+
         <script src="js/jquery.min.js"></script>
         <script src="js/bootstrap.min.js"></script>
         <script src="js/flexslider.min.js"></script>
@@ -639,6 +639,6 @@ Very interesting however is the type of programming we do at the hackerspace. Of
         <script src="js/lightbox.js"></script>
         <!--<script src="js/lightbox.min.js"></script>-->
         <script>document.title = "Whitespace (<?php echo $members_in.','.$strangers_in; ?>)";</script>
-				
+
     </body>
 </html>
