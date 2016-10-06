@@ -1,0 +1,35 @@
+/****** PLACE CUSTOM STYLES HERE ******/
+
+
+.whatwedo .accordion-1 .title{
+  background:#444;
+  
+}
+
+.whatwedo .accordion-1 .title:hover{
+  background:#888;
+  
+}
+
+.whatwedo .accordion-1 .active .title {
+  background:#888;
+}
+
+.whatwedo .accordion-1 .active .title:hover {
+  background: #888;
+}
+
+.whatwedo .accordion-1 .content {
+  border: 1px solid #888;
+}
+
+
+.accordion li.active .content {
+  max-height: 800px;
+}
+
+.accordion li.active .content img{
+  height:120px;
+  padding:4px;
+  width: auto;
+}
