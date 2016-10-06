@@ -502,7 +502,7 @@ foreach ($json as $k => $v) {
 								Because we love statistics...<br></p>
 						</div>-->
 						<div class="col-sm-12">
-							<div class="col-sm-3 text-center">
+							<div class="col-sm-4 text-center">
 								<div class="feature bordered mb40">
 									<h1 class="large"><?php echo $members_in; ?></h1>
 									<h5 class="uppercase">Humans in <br>whitespace <br></h5>
@@ -510,21 +510,21 @@ foreach ($json as $k => $v) {
 								</div>
 							</div>
 
-							<div class="col-sm-3 text-center">
+							<div class="col-sm-2 text-center">
 								<div class="feature bordered mb20">
 									<h1 class="large"><?php echo $strangers_in; ?></h1>
 									<h5 class="uppercase">Active devices <br>in whitespace </h5>
 								</div>
 							</div>
 
-							<div class="col-sm-3 text-center">
+							<div class="col-sm-2 text-center">
 								<div class="feature bordered mb20">
 									<h1 class="large">3</h1>
 									<h5 class="uppercase">Astronauts in<br> outer space </h5><!-- http://api.open-notify.org/astros.json -->
 								</div>
 							</div>
 
-							<div class="col-sm-3 text-center">
+							<div class="col-sm-4 text-center">
 								<div class="feature bordered mb40">
 									<h1 class="large uppercase"><?php include "hits.php"; ?></h1>
 									<h5 class="uppercase">Website <br>visits </h5>
