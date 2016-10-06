@@ -174,8 +174,7 @@ foreach ($json as $k => $v) {
 						<div class="col-sm-10 col-sm-offset-1 text-center">
 							<h3 class="uppercase color-primary mb40 mb-xs-24">A Place To Call Home</h3>
 							<p class="lead">
-								Whitespace (a.k.a. 0x20 a.k.a the Space) is a hackerspace in the wonderful city of Ghent, Belgium. It is a physical space run by a group of people dedicated to various aspects of constructive &amp; creative tinkering. This page is an ever growing useful
-								resource of information about who we are, what we do and how you can become a part of all the <b>awesomeness</b>.
+								Whitespace (a.k.a. 0x20 a.k.a the Space) is a hackerspace in the wonderful city of Ghent, Belgium. It is a physical space run by a group of people dedicated to various aspects of constructive &amp; creative tinkering. This page is an ever growing resource of information about who we are, what we do, and how you can become a part of all the <b>awesomeness</b>.
 							</p>
 						</div>
 					</div>
@@ -194,13 +193,15 @@ foreach ($json as $k => $v) {
 							<hr class="visible-xs">
 						</div>
 						<div class="col-md-5 col-sm-7">
-							<p>Don't worry, the hacker culture is a subculture of individuals who enjoy the intellectual challenge of creatively overcoming the limitations of current technologies to achieve novel and clever outcomes. The culture consists of, but is not limited
-								to: computing, networking, programming, music, gaming, electronics, lock picking, woodworking, robotics, science fiction...
+							<p>
+								Don't worry, we won't break into your computer. The hacker culture is a subculture of individuals who enjoy the intellectual challenge of creatively overcoming the limitations of current technologies to achieve novel and clever outcomes. The culture consists of, but is not limited to: computing, networking, programming, music, gaming, electronics, lock picking, woodworking, robotics, science fiction...
 							</p>
-							<p>However, the defining characteristic of a hacker is not the activities performed themselves, but the manner in which it is done. A hacker is someone who invents, constructs, learns, shares, trains basic skills and is willing to think outside the
-								box to find a creative solution to a problem.
+							<p>
+								However, the defining characteristic of a hacker is not the activities performed themselves, but the manner in which it is done. A hacker is someone who invents, constructs, learns, shares, trains basic skills and is willing to think outside the box to find a creative solution to a problem.
 							</p>
-							<p><i>Note: While we hackers are always aiming to be constructive, there is a group of people who loudly call themselves hackers, but aren't. These are people who get a kick out of breaking into computers for unethical purposes. Unfortunately, some media have been fooled into using the word ‘hacker’ to describe people who are not.</i></p>
+							<p><i>
+								Note: While we hackers are always aiming to be constructive, there is a group of people who loudly call themselves hackers, but aren't. These are people who get a kick out of breaking into computers for unethical purposes. Unfortunately, some media have been fooled into using the word ‘hacker’ to describe people who are not.
+							</i></p>
 
 
 						</div>
@@ -241,7 +242,7 @@ foreach ($json as $k => $v) {
 				<div class="container">
 					<div class="row">
 						<div class="col-sm-12 text-center">
-							<h4 class="mb16 uppercase" style="color:#e5692c;">Things we do...</h4>
+							<h4 class="mb16 uppercase" style="color:#e5692c;">Things we do..</h4>
 							<p class="lead mb64">
 								.. and things we did
 							</p>
@@ -257,7 +258,7 @@ foreach ($json as $k => $v) {
 									</div>
 									<div class="content">
 										<p>
-											Every Thursday we get together. Not to work on projects, but to enjoy a beer while we talk technology, discuss various topics and share philosophies.. These social evenings (or sometimes social nights) are open for everyone to join, so please do!
+											Every Thursday we get together to enjoy a beer while we talk about technology, discuss various topics, and share philosophies. These social evenings (and sometimes social nights) are open for everyone so join us if you want to get nerdy!
 										</p><p>
 											<a href="img/space3.jpg" data-lightbox="socialevening"><img src="img/space3.jpg"></a>
 											<a href="img/space2.jpg" data-lightbox="socialevening"><img src="img/space2.jpg"></a>
@@ -270,7 +271,7 @@ foreach ($json as $k => $v) {
 									</div>
 									<div class="content">
 										<p>
-											Social night on Thursday is fun but not ideal for productivity, so try a holy Sunday for less distractions. For people who want to focus on their own project in company of others, we organize Hack Sabbath on Sunday. Powertools usage is minimized, so we can work by ourselves or quietly brainstorm with others to get new inspiration.
+											Social night on Thursday is fun but not ideal for productivity. The holy sunday gives us the ideal combination of silence and focus for a productive day. Do you want to focus on your own project or work together with others? Join us on a sunday Hack Sabbath. Powertools usage is minimized, so we can work in peace and have relaxed brainstorms to get new inspiration.
 										</p>
 										<p>
 										<a href="img/people.jpg" data-lightbox="hacksabbath"><img src="img/people.jpg"></a>
@@ -283,8 +284,21 @@ foreach ($json as $k => $v) {
 									</div>
 									<div class="content">
 										<p>
-											A newline marks the end of a line and moves the cursor to the next one. One could see it as a sign of progress. A newline gives you a whole new line to be filled. To celebrate the space once a year, we organize a "Newline" event, taking place in spring season. We are looking forward to long talks, short talks, hands-on workshops and having an awesome time in our space. Feel like participating? Great! Join a Newline event.
+											To celebrate the space once a year, we organize the "Newline" hacker conference in the spring. A newline character marks the end of a line and moves the cursor to the next one. It's a sign of progress and it gives you a whole new line to be filled. We are looking forward to long talks, short talks, hands-on workshops and having an awesome time in our space. Feel like participating? Great! Join us for the next Newline!
 										</p>
+									</div>
+								</li>
+								<li>
+									<div class="title">
+										<h4 class="inline-block mb0">Project Flappers</h4>
+									</div>
+									<div class="content">
+											<p>
+												Once upon a time, our hackerspace got a bunch of classic airport/trainstation flappers (you know, the things that used to take up the infoboards). A few people were intrigued by this forgotton technology so they made a 140-character flapper board that can show tweets from a live feed. This amazing contraption is now visible in the offices of USE-IT Brussels. His 4-character baby brother is visible in our space, he shows us who is entering the building.<br /><br />Check out a demonstration
+												of the 140-character display <a href="https://vimeo.com/98027612">here</a>.
+											<br><br>
+												<a href="img/flappers.jpg" data-lightbox="flaps"><img src="img/flappers.jpg"></a><a href="img/splitflaps2.jpg" data-lightbox="flaps"><img src="img/splitflaps2.jpg"></a><br>
+											</p>
 									</div>
 								</li>
 								<li>
@@ -297,20 +311,6 @@ foreach ($json as $k => $v) {
 										</p><p>
 											<a href="img/spacebar.jpg" data-lightbox="spacebar"><img src="img/spacebar.jpg"></a>
 										</p>
-									</div>
-								</li>
-								<li>
-									<div class="title">
-										<h4 class="inline-block mb0">Project Flappers</h4>
-									</div>
-									<div class="content">
-											<p>
-												Once upon a time, our hackerspace got a bunch of classic airport/trainstation flappers (you know, the things that used to take up the infoboards). A few people were intrigued by the mechanism and there was a 140-character combination made that could
-												show tweets from a live feed. This amazing contraption was later sold to a company, but you can still find a 4-character version in the space, currently used to show us who is entering the building.<br /><br />Check out a demonstration
-												of the 140-character display <a href="https://vimeo.com/98027612">here</a>.
-											<br><br>
-												<a href="img/flappers.jpg" data-lightbox="flaps"><img src="img/flappers.jpg"></a><a href="img/splitflaps2.jpg" data-lightbox="flaps"><img src="img/splitflaps2.jpg"></a><br>
-											</p>
 									</div>
 								</li>
 							</ul>
@@ -335,7 +335,7 @@ foreach ($json as $k => $v) {
 									</div>
 									<div class="content">
 										<p>
-											When a light switch gets boring there is always more to explore. With tools like the infamous Arduino and a little bit of programming you can make your own internet-connected universal remote, or maybe you want to fix an old synthesizer. Learn how to breadboard & solder, use a multimeter or oscilloscope with the resources, knowledge and inspiration we have to offer at Whitespace.
+											Light switches are so 2008, so let's see what cool stuf we can do with electronics! With tools like the infamous Arduino and a little bit of programming you can make your own internet-connected universal remote. Or maybe you want to fix an old synthesizer? Learn how to solder, use a multimeter or oscilloscope! We can help you with our resources, knowledge and inspiration.
 										</p><p>
 											<a href="img/lamp.jpg" data-lightbox="electronics"><img src="img/lamp.jpg"></a>
 										</p>
@@ -347,9 +347,9 @@ foreach ($json as $k => $v) {
 									</div>
 									<div class="content">
 										<p>
-											Programming is a creative process done by programmers to instruct a computer on how to do a task. Hollywood has helped instill an image of programmers as uber techies who can sit down at a computer and break any password in seconds or make highly tuned warp engines improve performance by 500% with just one tweak. Sadly the reality is far less interesting!
+											Programming is a creative process done by programmers to instruct a computer to do a task. Hollywood has helped instill the image of programmers as uber techies who can sit down at a computer and break any password in seconds or make highly tuned warp engines improve performance by 500% with just one tweak. Sadly the reality is far less interesting!
 
-Very interesting however is the type of programming we do at the hackerspace. Often we combine, change and share code to get computers to do all kinds of stuff. Do you want a big red button that orders a pizza when pressed? Or do you need a digital dj that makes a music playlist for you? That and more is possible through the art of programming.
+											Or is it? At the hackerspace we combine, change and share code to get computers to do all kinds of cool stuff. Do you want a big red button that orders a pizza when pressed? Or do you need a digital dj that makes a music playlist for you? That and more is possible through the art of programming.
 										</p><p>
 											<a href="img/programming.jpg" data-lightbox="programming"><img src="img/programming.jpg"></a>
 										</p>
@@ -357,11 +357,11 @@ Very interesting however is the type of programming we do at the hackerspace. Of
 								</li>
 								<li>
 									<div class="title">
-										<h4 class="inline-block mb0">lock picking</h4>
+										<h4 class="inline-block mb0">Lock picking</h4>
 									</div>
 									<div class="content">
 										<p>
-											You can pick your friends. You can pick your beer. But can you pick… a Lock? Join us on a lock picking evening as we embark on an ancient mechanical adventure to explore the inner workings of a modern lock, first developed by the Mesopotamians and Egyptians over 4000 years ago. Lock picking is a classic sport in the hacker community. Rather than wanting to break into something, it is a way of appreciating and learning about these mechanisms called locks.
+											You can pick your friends. You can pick a beer. But can you pick… a Lock? Join us on a lock picking evening as we embark on an ancient mechanical adventure to explore the inner workings of a modern lock, first developed by the Mesopotamians and Egyptians over 4000 years ago. Lock picking is a classic sport in the hacker community. Rather than wanting to break into something, it is a way of appreciating and learning about these awesome pieces of machinery called locks.
 										</p><p>
 										<a href="img/lockpicking.jpg" data-lightbox="lockpicking"><img src="img/lockpicking.jpg"></a>
 										<a href="img/lockpicking2.jpg" data-lightbox="lockpicking"><img src="img/lockpicking2.jpg"></a>
@@ -370,11 +370,11 @@ Very interesting however is the type of programming we do at the hackerspace. Of
 								</li>
 								<li>
 									<div class="title">
-										<h4 class="inline-block mb0">Other events</h4>
+										<h4 class="inline-block mb0">Other Events</h4>
 									</div>
 									<div class="content">
 										<p>
-											For people wanting to explore new horizons there are events, workshops and talks. With subjects sounding like "Make paintings nerdy", "Android malware in numbers", "Talk about software licensing", "Ubuntu 14.04 Release Party", "Origami Workshop" and "Preserving a heart". But there also are the more normal gatherings called "Movie Night", "Game Night" and "Comedy Evening".
+											For people wanting to explore new horizons there are events, workshops and talks with subjects like "Make paintings nerdy", "Android malware in numbers", "Talk about software licensing", "Ubuntu 14.04 Release Party", "Origami Workshop" and "Creating a heart in a jar". We also have social gatherings such as "Movie Night", "Game Night" and "Comedy Evening".
 										</p>
 										<p>
 											<a href="img/pancakes2.jpg" data-lightbox="workshops"><img src="img/pancakes2.jpg"></a>
@@ -401,7 +401,7 @@ Very interesting however is the type of programming we do at the hackerspace. Of
 						<div class="col-sm-12 text-center">
 							<h4 class="mb16 uppercase">FAQ</h4>
 							<p class="lead mb64">
-								Frequently asked questions
+								Frequently Asked Questions
 							</p>
 						</div>
 					</div>
@@ -411,12 +411,11 @@ Very interesting however is the type of programming we do at the hackerspace. Of
 							<ul class="accordion accordion-1 one-open">
 								<li>
 									<div class="title">
-										<h4 class="inline-block mb0">I want to visit Whitespace</h4>
+										<h4 class="inline-block mb0">I want to visit Whitespace!</h4>
 									</div>
 									<div class="content">
 										<p>
-											Nice! You can find our location on the bottom of this page. We recommend coming over on a Thursday evening, when we have our social night. That way you'll have people who can show you around and you won't be bothered by technical projects. In fact you
-											are welcome anytime, but there has to be a member with the key. Also look <a href="https://hackerspace.gent/wiki/index.php/Main_Page">here</a> for more info about visiting and getting in.
+											Nice! You can find our location on the bottom of this page. We recommend coming over on a Thursday evening, our social night. That way you'll have a bunch of people who can show you around and you won't be bothered by technical projects. However, you are welcome anytime when there are members present. Also look <a href="https://hackerspace.gent/wiki/index.php/Main_Page">here</a> for more info about visiting and getting in.
 										</p>
 									</div>
 								</li>
@@ -426,8 +425,8 @@ Very interesting however is the type of programming we do at the hackerspace. Of
 									</div>
 									<div class="content">
 										<p>
-											We decided to name the space after the location (blekerijstraat/"bleacherstreet"), we're in an old factory which used to be a blekerij, they make things white there, the brainstorm didn't take that long. Bleach, bleak, white... space hence: "whitespace".
-											Why we use "0x20" as an alias is left as an exercise to the reader.
+											We decided to name the space after the location (blekerijstraat/"bleacherstreet"). We're in an old factory which used to be a bleachery (a place where they bleach fabric). The brainstorm didn't take that long: bleach, pale, white.. and it's a space, hence: "whitespace".
+											Why we use "0x20" as an alias is left as an exercise to the reader. Sadly, this alias causes us a lot of trouble since social networks and spam filters think we're trying to hack them when we use '0x20.be'.
 										</p>
 									</div>
 								</li>
@@ -437,8 +436,7 @@ Very interesting however is the type of programming we do at the hackerspace. Of
 									</div>
 									<div class="content">
 										<p>
-											We sometimes have visitors who don't speak Dutch, having everything in English attracts people who are interesting, but might not speak any of the official Belgian languages. This tradition is kept alive here, but don't be scared by that, a lot of people
-											speak something like Dutch in the space.
+											There are a lot of interesting people who don't speak any of the official Belgian languages, most Belgian people speak English pretty well, and we're too lazy to write this page in multiple languages. But don't let this scare you. A lot of people in the space speak both Dutch and English, and we'll happily use what's most comfortable to you.
 										</p>
 									</div>
 								</li>
@@ -448,7 +446,7 @@ Very interesting however is the type of programming we do at the hackerspace. Of
 									</div>
 									<div class="content">
 										<p>
-											We do have our own bar with all the normal beverages (including Club Mate). People can bring food, but ordering pizza is not uncommon and if you're lucky we may have some instant-type food available.
+											We have our own bar with all the normal beverages (including Club Mate!). We sell some snacks and if you're lucky even some instant food. Feel free to bring your own food or just order pizza if you're to lazy for anything else.
 										</p>
 									</div>
 								</li>
@@ -463,7 +461,7 @@ Very interesting however is the type of programming we do at the hackerspace. Of
 									</div>
 									<div class="content">
 										<p>
-											Yes, unless it will kill little puppies. To be clear, don't break the law, don't break things you don't own and don't endanger people or the space itself. If you have a cool project idea, try to find people interested
+											Yes, unless it will kill little puppies. To be clear: don't break the law, don't break things you don't own and don't endanger people or the space itself. If you have a cool project idea, try to find people interested
 											in joining the project, but don't expect everybody to just jump on it. Everybody has only so much time to spend on cool stuff and people might be busy with other things already. So come over with cool ideas, share your knowledge with others
 											and have a great time.
 										</p>
@@ -549,7 +547,7 @@ Very interesting however is the type of programming we do at the hackerspace. Of
 						<div class="col-md-4 col-md-offset-1 col-sm-5 col-sm-offset-1">
 							<h3>Space Pulse</h3>
 							<p>
-								This image learns us something about the activity in the space last week, but we don't know exactly what..
+								This image learns us something about the activity in the space last week, but we don't know what exactly..
 							</p>
 						</div>
 					</div>
