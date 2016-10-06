@@ -547,7 +547,7 @@ foreach ($json as $k => $v) {
 						<div class="col-md-4 col-md-offset-1 col-sm-5 col-sm-offset-1">
 							<h3>Space Pulse</h3>
 							<p>
-								This image learns us something about the activity in the space last week, but we don't know what exactly..
+								This image teaches us something about the activity in the space last week, but we don't know what exactly..
 							</p>
 						</div>
 					</div>
