@@ -4,7 +4,7 @@
 
 	<head>
 		<meta charset="UTF-8"/>
-		<title>Whitespace</title>
+		<title>HS Gent</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<meta property="og:image" content="https://hackerspace.gent/landing/img/preview.png" />
 
@@ -175,7 +175,7 @@ foreach ($json as $k => $v) {
 						<div class="col-sm-10 col-sm-offset-1 text-center">
 							<h3 class="uppercase color-primary mb40 mb-xs-24">A Place To Call Home</h3>
 							<p class="lead">
-								Whitespace (a.k.a. 0x20 a.k.a the Space) is a hackerspace in the wonderful city of Ghent, Belgium. It is a physical space run by a group of people dedicated to various aspects of constructive &amp; creative tinkering. This page is an ever growing resource of information about who we are, what we do, and how you can become a part of all the <b>awesomeness</b>.
+								Hackerspace Gent (a.k.a. Whitespace a.k.a. 0x20 a.k.a the Space) is a hackerspace in the wonderful city of Ghent, Belgium. It is a physical space run by a group of people dedicated to various aspects of constructive &amp; creative tinkering. This page is an ever growing resource of information about who we are, what we do, and how you can become a part of all the <b>awesomeness</b>.
 							</p>
 						</div>
 					</div>
