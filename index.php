@@ -637,7 +637,7 @@ foreach ($json as $k => $v) {
         <script src="js/scripts.js"></script>
         <script src="js/lightbox.js"></script>
         <!--<script src="js/lightbox.min.js"></script>-->
-        <script>document.title = "Whitespace (<?php echo $members_in.','.$strangers_in; ?>)";</script>
+        <script>document.title = "Hackerspace Gent (<?php echo $members_in.','.$strangers_in; ?>)";</script>
 
     </body>
 </html>
