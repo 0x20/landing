@@ -616,6 +616,7 @@ foreach ($json as $k => $v) {
 							<ul class="list-inline social-list">
 								<li><a href="https://twitter.com/HSGhent"><i class="ti-twitter-alt"></i></a></li>
 								<li><a href="https://www.facebook.com/0x20.be"><i class="ti-facebook"></i></a></li>
+								<li><a href="https://github.com/0x20/landing"><i class="ti-github"></i></a></li>
 								<!--<li><a href="#"><i class="ti-dribbble"></i></a></li>
 								<li><a href="#"><i class="ti-vimeo-alt"></i></a></li>-->
 							</ul>
