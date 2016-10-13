@@ -527,7 +527,7 @@ foreach ($json as $k => $v) {
 
 							<div class="col-sm-3 text-center">
 								<div class="feature bordered mb30">
-									<h1 class="large uppercase"><?php include "hits.php"; ?></h1>
+									<h1 class="large uppercase"><?php echo rand(1,999).",".rand(1,9); ?></h1>
 									<h5 class="uppercase">Website <br>visits </h5>
 								</div>
 							</div>
@@ -637,7 +637,7 @@ foreach ($json as $k => $v) {
         <script src="js/scripts.js"></script>
         <script src="js/lightbox.js"></script>
         <!--<script src="js/lightbox.min.js"></script>-->
-        <script>document.title = "Hackerspace Gent (<?php echo $members_in.','.$strangers_in; ?>)";</script>
+        <script>document.title = "HS Gent (<?php echo $members_in.','.$strangers_in; ?>)";</script>
 
     </body>
 </html>
