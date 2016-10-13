@@ -506,7 +506,7 @@ foreach ($json as $k => $v) {
 							<div class="col-sm-3 text-center">
 								<div class="feature bordered mb40">
 									<h1 class="large"><?php echo $members_in; ?></h1>
-									<h5 class="uppercase">Humans in <br>whitespace <br></h5>
+									<h5 class="uppercase">Humans in <br>the space <br></h5>
 
 								</div>
 							</div>
@@ -514,7 +514,7 @@ foreach ($json as $k => $v) {
 							<div class="col-sm-3 text-center">
 								<div class="feature bordered mb30">
 									<h1 class="large"><?php echo $strangers_in; ?></h1>
-									<h5 class="uppercase">Active devices <br>in whitespace </h5>
+									<h5 class="uppercase">Active devices <br>in the space </h5>
 								</div>
 							</div>
 
@@ -527,8 +527,8 @@ foreach ($json as $k => $v) {
 
 							<div class="col-sm-3 text-center">
 								<div class="feature bordered mb30">
-									<h1 class="large uppercase"><?php echo rand(1,999).",".rand(1,9); ?></h1>
-									<h5 class="uppercase">Website <br>visits </h5>
+									<h1 class="large uppercase"><?php echo rand(1,99).",".rand(1,9); ?></h1>
+									<h5 class="uppercase">Website <br>visits today</h5>
 								</div>
 							</div>
 						</div>
