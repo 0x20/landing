@@ -4,7 +4,7 @@ Everytime a commit is pushed to [this repository](https://github.com/0x20/landin
 
 - `pull.php`: This file calls `git pull` when accessed. This is needed for automatic sync with github, so **do not change it!**
 
-# Handy information:
+## Handy information:
 
 If you want to commit from the server itself, use this command to specify your name and email address
 
@@ -12,3 +12,8 @@ If you want to commit from the server itself, use this command to specify your n
 
 
 Thanks to: http://writing.markchristian.org/2011/03/10/how-to-deploy-your-code-from-github-automatically.html
+
+# Information about the landing page
+
+- Mostly made by Bloemist
+- "Online members" data comes from Pamela: https://hackerspace.gent/wiki/index.php/Pamela
