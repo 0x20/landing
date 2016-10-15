@@ -53,8 +53,8 @@ foreach ($json as $k => $v) {
 				<div class="nav-bar">
 					<div class="module left">
 						<a href="index.php">
-							<img class="logo logo-light" alt="Whitespace" src="img/logo.png">
-							<img class="logo logo-dark" alt="Whitespace" src="img/logo-dark.png">
+							<img class="logo logo-light" alt="Hackerspace Gent" src="img/logo.png">
+							<img class="logo logo-dark" alt="Hackerspace Gent" src="img/logo-dark.png">
 						</a>
 					</div>
 					<div class="module widget-handle mobile-toggle right visible-sm visible-xs">
@@ -98,7 +98,7 @@ foreach ($json as $k => $v) {
 						<div class="container v-align-transform">
 							<div class="row text-center">
 								<div class="col-md-offset-1 col-md-10">
-									<h2 class="mb-xs-16 uppercase bold">WHITESPACE</h2>
+									<h2 class="mb-xs-16 uppercase bold">HACKERSPACE GENT</h2>
 									<h2 class="mb-xs-16 uppercase bold">Open right now!</h2>
 									<p class="lead uppercase mb40">
 										<?php if($strangers_in > 0){if($strangers_in == 1){ echo "1 device and "; }else{ echo $strangers_in." devices and "; }} if($members_in == 1){ echo "1 human "; }else{ echo $members_in." humans "; }?>detected</p>
@@ -119,7 +119,7 @@ foreach ($json as $k => $v) {
 						<div class="container v-align-transform">
 							<div class="row text-center">
 								<div class="col-md-offset-1 col-md-10">
-									<h2 class="mb-xs-16 uppercase bold">WHITESPACE</h2>
+									<h2 class="mb-xs-16 uppercase bold">HACKERSPACE GENT</h2>
 									<!--<p class="lead uppercase mb40">Learn to hack, Hack to learn.</p>-->
 									<a class="btn btn-lg inner-link" href="#home">Start Exploring</a>
 								</div>
@@ -140,7 +140,7 @@ foreach ($json as $k => $v) {
 						<div class="container v-align-transform">
 							<div class="row">
 								<div class="col-sm-12 text-center">
-									<h2 class="mb-xs-16 uppercase bold">WHITESPACE</h2>
+									<h2 class="mb-xs-16 uppercase bold">HACKERSPACE GENT</h2>
 									<a class="btn btn-lg inner-link" href="#home">Start To Flap</a>
 								</div>
 							</div>
@@ -155,7 +155,7 @@ foreach ($json as $k => $v) {
 						<div class="container v-align-transform">
 							<div class="row text-center">
 								<div class="col-md-offset-1 col-md-10">
-									<h2 class="mb-xs-16 uppercase bold">WHITESPACE</h2>
+									<h2 class="mb-xs-16 uppercase bold">HACKERSPACE GENT</h2>
 									<a class="btn btn-lg inner-link" href="#home">Start Tasting</a>
 								</div>
 							</div>
@@ -175,7 +175,7 @@ foreach ($json as $k => $v) {
 						<div class="col-sm-10 col-sm-offset-1 text-center">
 							<h3 class="uppercase color-primary mb40 mb-xs-24">A Place To Call Home</h3>
 							<p class="lead">
-								Hackerspace Gent (a.k.a. Whitespace a.k.a. 0x20 a.k.a the Space) is a hackerspace in the wonderful city of Ghent, Belgium. It is a physical space run by a group of people dedicated to various aspects of constructive &amp; creative tinkering. This page is an ever growing resource of information about who we are, what we do, and how you can become a part of all the <b>awesomeness</b>.
+								Hackerspace Gent (0x20) is a hackerspace in the wonderful city of Ghent, Belgium. It is a physical space run by a group of people dedicated to various aspects of constructive &amp; creative tinkering. This page is an ever growing resource of information about who we are, what we do, and how you can become a part of all the <b>awesomeness</b>.
 							</p>
 						</div>
 					</div>
@@ -412,7 +412,7 @@ foreach ($json as $k => $v) {
 							<ul class="accordion accordion-1 one-open">
 								<li>
 									<div class="title">
-										<h4 class="inline-block mb0">I want to visit Whitespace!</h4>
+										<h4 class="inline-block mb0">I want to visit Hackerspace Gent!</h4>
 									</div>
 									<div class="content">
 										<p>
@@ -422,12 +422,11 @@ foreach ($json as $k => $v) {
 								</li>
 								<li>
 									<div class="title">
-										<h4 class="inline-block mb0">Why is it called Whitespace?</h4>
+										<h4 class="inline-block mb0">Are you guys Whitespace?</h4>
 									</div>
 									<div class="content">
 										<p>
-											We decided to name the space after the location (blekerijstraat/"bleacherstreet"). We're in an old factory which used to be a bleachery (a place where they bleach fabric). The brainstorm didn't take that long: bleach, pale, white.. and it's a space, hence: "whitespace".
-											Why we use "0x20" as an alias is left as an exercise to the reader. Sadly, this alias causes us a lot of trouble since social networks and spam filters think we're trying to hack them when we use '0x20.be'.
+										Jup, we're the same people. Whitespace is our previous name. It's still remembered in our logo.	
 										</p>
 									</div>
 								</li>
@@ -616,6 +615,7 @@ foreach ($json as $k => $v) {
 							<ul class="list-inline social-list">
 								<li><a href="https://twitter.com/HSGhent"><i class="ti-twitter-alt"></i></a></li>
 								<li><a href="https://www.facebook.com/0x20.be"><i class="ti-facebook"></i></a></li>
+								<li><a href="https://github.com/0x20/landing"><i class="ti-github"></i></a></li>
 								<!--<li><a href="#"><i class="ti-dribbble"></i></a></li>
 								<li><a href="#"><i class="ti-vimeo-alt"></i></a></li>-->
 							</ul>
