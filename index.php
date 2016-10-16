@@ -49,7 +49,7 @@ foreach ($json as $k => $v) {
 
 
 
-			<nav class="bg-dark absolute transparent" <!--style="background-image:url('img/semi-bg.png');-->">
+			<nav class="bg-dark absolute transparent">
 				<div class="nav-bar">
 					<div class="module left">
 						<a href="index.php">
