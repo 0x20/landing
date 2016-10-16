@@ -120,7 +120,6 @@ foreach ($json as $k => $v) {
 							<div class="row text-center">
 								<div class="col-md-offset-1 col-md-10">
 									<h2 class="mb-xs-16 uppercase bold">HACKERSPACE GENT</h2>
-									<!--<p class="lead uppercase mb40">Learn to hack, Hack to learn.</p>-->
 									<a class="btn btn-lg inner-link" href="#home">Start Exploring</a>
 								</div>
 							</div>
