@@ -526,7 +526,7 @@ foreach ($json as $k => $v) {
 
 							<div class="col-sm-3 text-center">
 								<div class="feature bordered mb30">
-									<h1 class="large uppercase"><?php echo rand(1,99).",".rand(1,9); ?></h1>
+									<h1 class="large uppercase">??</h1>
 									<h5 class="uppercase">Website <br>visits today</h5>
 								</div>
 							</div>
