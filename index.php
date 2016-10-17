@@ -4,7 +4,7 @@
 
 	<head>
 		<meta charset="UTF-8"/>
-		<title>HS Gent</title>
+		<title>HS.gent</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<meta property="og:image" content="https://hackerspace.gent/landing/img/preview.png" />
 
@@ -631,7 +631,7 @@ foreach ($json as $k => $v) {
         <script src="js/scripts.js"></script>
         <script src="js/lightbox.js"></script>
         <!--<script src="js/lightbox.min.js"></script>-->
-        <script>document.title = "HS Gent (<?php echo $members_in.','.$strangers_in; ?>)";</script>
+        <script>document.title = "HS.gent (<?php echo $members_in.','.$strangers_in; ?>)";</script>
 
     </body>
 </html>
