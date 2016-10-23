@@ -1,7 +1,6 @@
 
 	<!doctype html>
 	<html lang="en">
-<?php include 'hits.php'; ?>
 	<head>
 		<meta charset="UTF-8"/>
 		<title>HS.gent</title>
@@ -17,11 +16,17 @@
     <link href="css/ytplayer.css" rel="stylesheet" type="text/css" media="all" />
 		<link href="css/custom.css" rel="stylesheet" type="text/css" media="all" />
 		<link href='https://fonts.googleapis.com/css?family=Lato:300,400%7CRaleway:100,400,300,500,600,700%7COpen+Sans:400,500,600' rel='stylesheet' type='text/css'>
-		<meta http-equiv="Refresh" content="300">
+		<meta http-equiv="refresh" content="300;url=index.php?reload=true" />
+		<meta http-equiv="Refresh" content="350">
 		<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
 	</head>
 
 <?php
+		
+if(!isset($_GET['reload'])){
+	include 'hits.php';
+}			
+		
 $members_in=0;
 $strangers_in=0;
 $members_list=" - ";
