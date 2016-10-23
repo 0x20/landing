@@ -1,7 +1,7 @@
 
 	<!doctype html>
 	<html lang="en">
-
+<?php include 'hits.php'; ?>
 	<head>
 		<meta charset="UTF-8"/>
 		<title>HS.gent</title>
