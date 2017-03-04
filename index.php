@@ -72,11 +72,15 @@ foreach ($json as $k => $v) {
 										<li><a href="#whatwedo" class="inner-link">Things we do</a></li>
 										<li><a href="#faq" class="inner-link">FAQ</a></li>
 										<li><a href="#stats" class="inner-link">Stats</a></li>
-										<li><a href="#location" class="inner-link">Location</a></li>
+										<li><a href="#location" class="inner-link">Contact</a></li>
 									</ul>
 								</li>
 								<li>
 									<a href="/wiki">Wiki</a>
+								</li>
+								
+								<li>
+									<a href="/newline">Newline 2017</a>
 								</li>
 							</ul>
 						</div>
@@ -90,7 +94,8 @@ foreach ($json as $k => $v) {
 
 			<section class="image-slider slider-all-controls parallax controls-inside pt0 pb0 height-70" style="background: #292929;">
 				<ul class="slides">
-					<?php if($members_in >= 1 || $strangers_in >= 2){ ?>
+					<?php 
+					if($members_in >= 1 || $strangers_in >= 2){ ?>
 					<li class="overlay image-bg">
 						<div class="background-image-holder">
 							<img alt="image" class="background-image" src="img/people.jpg">
@@ -105,6 +110,48 @@ foreach ($json as $k => $v) {
 									<p class="lead uppercase mb40">
 										<?php echo $members_list; ?>
 									</p>
+								</div>
+							</div>
+
+						</div>
+
+					</li>
+					
+					<li class="overlay image-bg" >
+						<div class="background-image-holder">
+							<img alt="image" class="background-image" src="img/nieuwlijn.jpg">
+						</div>
+						<div class="container v-align-transform">
+							<div class="row text-center">
+								<div class="col-md-offset-1 col-md-10">
+									<h2 class="mb-xs-16 uppercase bold">Visit Newline</h2>
+									<p class="lead mb40">
+		                                Our yearly conference with
+		                                <br>Workshops, talks, games and beer.<br><br>
+																		<b>7-8-9 April 2017</b>
+		                            </p>
+									<a class="btn btn-lg" href="/newline">Learn More</a>
+								</div>
+							</div>
+
+						</div>
+
+					</li>
+					<?php }elseif(True){ ?>
+					<li class="overlay image-bg" >
+						<div class="background-image-holder">
+							<img alt="image" class="background-image" src="img/nieuwlijn.jpg">
+						</div>
+						<div class="container v-align-transform">
+							<div class="row text-center">
+								<div class="col-md-offset-1 col-md-10">
+									<h2 class="mb-xs-16 uppercase bold">Visit Newline</h2>
+									<p class="lead mb40">
+		                                Our yearly conference with
+		                                <br>Workshops, talks, games and beer.<br><br>
+																		<b>7-8-9 April 2017</b>
+		                            </p>
+									<a class="btn btn-lg" href="/newline">Learn More</a>
 								</div>
 							</div>
 
@@ -487,7 +534,28 @@ foreach ($json as $k => $v) {
 			</section>
 
 
+			<section class="page-title page-title-3 image-bg overlay parallax">
+				<div class="background-image-holder">
+					<img alt="Background Image" class="background-image" src="img/space.jpg">
+				</div>
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-12 text-center">
+							<h4 class="uppercase mb0">“Oh 't ain't what you do it's the place that you
+do it<br>'T ain't what you do it's the time that you do it<br>'T ain't what you do it's the way that you do it<br>That's what gets results”</h3>
+		                </div>
+		            </div>
 
+		        </div>
+
+		        <ol class="breadcrumb breadcrumb-2">
+
+		            <li>
+		                <a href="#">- Ella Fitzgerald</a>
+		            </li>
+
+		        </ol>
+		    </section>
 
 
 			<a id="stats"></a>
@@ -535,6 +603,8 @@ foreach ($json as $k => $v) {
 				</div>
 
 			</section>
+			
+				
 
 			<a id="spacepulse"></a>
 			<section>
@@ -586,10 +656,13 @@ foreach ($json as $k => $v) {
 					</div>
 				</div>
 				<div class="col-md-6 content">
+					<h6 class="uppercase text-center"><br />09 395 33 23<br>
+					info@0x20.be</h6>
 					<h6 class="uppercase text-center">Blekerijstraat 75, Ghent, Belgium
 											<br /> We're in room 1.21</h6>
 					<!--<h6 class="uppercase text-center"><br />Open the gate on Thursdays<br /> by calling +32 (0) 484 73 95 88</h6>-->
-					<h6 class="uppercase text-center"><br />come alone and make sure<br> you are not being followed</h6>
+					
+					<h6 class="uppercase text-center">come alone and make sure<br> you are not being followed</h6>
 
 				</div>
 			</section>
