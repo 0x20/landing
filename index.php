@@ -534,28 +534,6 @@ foreach ($json as $k => $v) {
 			</section>
 
 
-			<section class="page-title page-title-3 image-bg overlay parallax">
-				<div class="background-image-holder">
-					<img alt="Background Image" class="background-image" src="img/space.jpg">
-				</div>
-				<div class="container">
-					<div class="row">
-						<div class="col-sm-12 text-center">
-							<h4 class="uppercase mb0">“Oh 't ain't what you do it's the place that you
-do it<br>'T ain't what you do it's the time that you do it<br>'T ain't what you do it's the way that you do it<br>That's what gets results”</h3>
-		                </div>
-		            </div>
-
-		        </div>
-
-		        <ol class="breadcrumb breadcrumb-2">
-
-		            <li>
-		                <a href="#">- Ella Fitzgerald</a>
-		            </li>
-
-		        </ol>
-		    </section>
 
 
 			<a id="stats"></a>
@@ -629,6 +607,29 @@ do it<br>'T ain't what you do it's the time that you do it<br>'T ain't what you 
 				<div class="background-image-holder">
 					<img alt="Background Image" class="background-image" src="img/moody.jpg">
 				</div>
+				
+				
+				<?php if (rand(1,2) == 1){ ?>
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-12 text-center">
+							<h4 class="uppercase mb0">“Oh 't ain't what you do it's the place that you
+do it<br>'T ain't what you do it's the time that you do it<br>'T ain't what you do it's the way that you do it<br>That's what gets results”</h3>
+		                </div>
+		            </div>
+
+		        </div>
+
+		        <ol class="breadcrumb breadcrumb-2">
+
+		            <li>
+		                <a href="#">- Ella Fitzgerald</a>
+		            </li>
+
+		        </ol>
+				
+				<?php }else{ ?>
+				
 				<div class="container">
 					<div class="row">
 						<div class="col-sm-12 text-center">
@@ -645,6 +646,12 @@ do it<br>'T ain't what you do it's the time that you do it<br>'T ain't what you 
 		            </li>
 
 		        </ol>
+				
+				<?php } ?> 
+				
+				
+				
+				
 		    </section>
 
 
