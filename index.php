@@ -492,7 +492,7 @@ foreach ($json as $k => $v) {
 									</div>
 									<div class="content">
 										<p>
-											We have our own bar with all the normal beverages (including Club Mate!). We sell some snacks and if you're lucky even some instant food. Feel free to bring your own food or just order pizza if you're to lazy for anything else.
+											We have our own bar with all the normal beverages (including Club Mate!). We sell some snacks and if you're lucky even some instant food. Feel free to bring your own food or just order pizza if you're too lazy for anything else.
 										</p>
 									</div>
 								</li>
