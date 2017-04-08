@@ -663,7 +663,7 @@ do it<br>'T ain't what you do it's the time that you do it<br>'T ain't what you 
 					</div>
 				</div>
 				<div class="col-md-6 content">
-					<h6 class="uppercase text-center"><br />09 395 33 23<br>
+					<h6 class="uppercase text-center"><br /><a href="tel:+3293953323">09 395 33 23</a><br>
 					info@0x20.be</h6>
 					<h6 class="uppercase text-center">Blekerijstraat 75, Ghent, Belgium
 											<br /> We're in room 1.21</h6>
