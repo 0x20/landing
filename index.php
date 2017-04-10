@@ -116,48 +116,7 @@ foreach ($json as $k => $v) {
 						</div>
 
 					</li>
-					
-					<li class="overlay image-bg" >
-						<div class="background-image-holder">
-							<img alt="image" class="background-image" src="img/nieuwlijn.jpg">
-						</div>
-						<div class="container v-align-transform">
-							<div class="row text-center">
-								<div class="col-md-offset-1 col-md-10">
-									<h2 class="mb-xs-16 uppercase bold">Visit Newline</h2>
-									<p class="lead mb40">
-		                                Our yearly conference with
-		                                <br>Workshops, talks, games and beer.<br><br>
-																		<b>7-8-9 April 2017</b>
-		                            </p>
-									<a class="btn btn-lg" href="/newline">Learn More</a>
-								</div>
-							</div>
 
-						</div>
-
-					</li>
-					<?php }elseif(True){ ?>
-					<li class="overlay image-bg" >
-						<div class="background-image-holder">
-							<img alt="image" class="background-image" src="img/nieuwlijn.jpg">
-						</div>
-						<div class="container v-align-transform">
-							<div class="row text-center">
-								<div class="col-md-offset-1 col-md-10">
-									<h2 class="mb-xs-16 uppercase bold">Visit Newline</h2>
-									<p class="lead mb40">
-		                                Our yearly conference with
-		                                <br>Workshops, talks, games and beer.<br><br>
-																		<b>7-8-9 April 2017</b>
-		                            </p>
-									<a class="btn btn-lg" href="/newline">Learn More</a>
-								</div>
-							</div>
-
-						</div>
-
-					</li>
 					<?php }else{ ?>
 					<li class="overlay image-bg" >
 						<div class="background-image-holder">
