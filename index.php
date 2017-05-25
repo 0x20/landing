@@ -75,6 +75,7 @@ foreach ($json as $k => $v) {
 										<li><a href="#whatwedo" class="inner-link">Things we do</a></li>
 										<li><a href="#faq" class="inner-link">FAQ</a></li>
 										<li><a href="#stats" class="inner-link">Stats</a></li>
+										<li><a href="#calendar" class="inner-link">Calendar</a></li>
 										<li><a href="#location" class="inner-link">Contact</a></li>
 									</ul>
 								</li>
