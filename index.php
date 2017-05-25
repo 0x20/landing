@@ -19,6 +19,9 @@
 		<meta http-equiv="refresh" content="300;url=index.php?reload=true" />
 		<meta http-equiv="Refresh" content="350">
 		<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+		
+		<!-- CAL -->
+	  <link href="css/fullcal.css" type="text/css" rel="stylesheet" />
 	</head>
 
 <?php
@@ -77,10 +80,6 @@ foreach ($json as $k => $v) {
 								</li>
 								<li>
 									<a href="/wiki">Wiki</a>
-								</li>
-								
-								<li>
-									<a href="/newline">Newline 2017</a>
 								</li>
 							</ul>
 						</div>
@@ -561,6 +560,57 @@ foreach ($json as $k => $v) {
 				</div>
 
 			</section>
+			
+			
+			
+			
+			
+			<section class="page-title page-title-3 image-bg overlay parallax">
+				<div class="background-image-holder">
+					<img alt="Background Image" class="background-image" src="img/moody.jpg">
+				</div>
+							<div class="container">
+					<div class="row">
+						<div class="col-sm-12 text-center">
+							<h4 class="uppercase mb0">“My primary goal of hacking was the intellectual curiosity, the seduction of adventure.”</h3>
+		                </div>
+		            </div>
+
+		        </div>
+
+		        <ol class="breadcrumb breadcrumb-2">
+
+		            <li>
+		                <a href="#">- Kevin Mitnick</a>
+		            </li>
+
+		        </ol>
+			</section>
+			
+			<a id="calendar"></a>
+			<section>
+				<div class="container">
+					<div class="row v-align-children">
+						
+						<div id="bootstrapModalFullCalendar"></div>
+						<div id="fullCalModal" class="modal fade">
+								<div class="modal-dialog">
+										<div class="modal-content">
+												<div class="modal-header">
+														<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">×</span> <span class="sr-only">close</span></button>
+														<h4 id="modalTitle" class="modal-title"></h4>
+												</div>
+												<div id="modalBody" class="modal-body"></div>
+												<div class="modal-footer">
+														<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+												</div>
+										</div>
+								</div>
+						</div>
+
+					</div>
+				</div>
+			</section>
 
 			<section class="page-title page-title-3 image-bg overlay parallax">
 				<div class="background-image-holder">
@@ -568,7 +618,7 @@ foreach ($json as $k => $v) {
 				</div>
 				
 				
-				<?php if (rand(1,2) == 1){ ?>
+				<?php if (rand(1,1) == 1){ ?>
 				<div class="container">
 					<div class="row">
 						<div class="col-sm-12 text-center">
@@ -676,6 +726,51 @@ do it<br>'T ain't what you do it's the time that you do it<br>'T ain't what you 
         <script src="js/lightbox.js"></script>
         <!--<script src="js/lightbox.min.js"></script>-->
         <script>document.title = "HS.gent (<?php echo $members_in.','.$strangers_in; ?>)";</script>
+		
+		
+		<!-- CAL -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.8.2/moment.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/2.6.1/fullcalendar.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.0.1/gcal.js" integrity="sha256-Up0naRM3Y5mccKDulyZHx9Kn0hPh1zFsDwnx4V7r9yk=" crossorigin="anonymous"></script>
+
+    <script>
+        $(document).ready(function() {
+            $('#bootstrapModalFullCalendar').fullCalendar({
+                googleCalendarApiKey: 'AIzaSyB5BCTDN5vLfegBap8qpo0N2PX_fKYmL9o',
+                events: {
+                  googleCalendarId: 'cnbo008is5q30898s0nkg5cau0@group.calendar.google.com'
+                },
+                firstDay: 1,
+                header: {
+                    
+                    left: '',
+                    center: 'prev title next',
+                    right: 'agendaDay,agendaWeek,month'
+                },
+                timeFormat: 'H(:mm)',
+			          columnFormat: {
+                  month: 'ddd',    // Mon
+                  week: 'ddd D/M', // Mon 7
+                  day: 'dddd D/M',  // Monday 7/9
+                  agendaDay: 'dddd D/M'
+                },
+                titleFormat: {
+                  month: 'MMMM YYYY', // September 2009
+                  week: "MMMM YYYY", // September 2009
+                  day: 'D MMMM YYYY'                  // Tuesday, Sep 8, 2009
+                },
+                defaultView: 'month',
+                navLinks: true,
+                eventClick:  function(event, jsEvent, view) {
+                    $('#modalTitle').html(event.title);
+                    $('#modalBody').html(event.description);
+                    $('#eventUrl').attr('href',event.url);
+                    $('#fullCalModal').modal();
+                    return false;
+                },
+            });
+        });
+    </script>
 
     </body>
 </html>
