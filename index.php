@@ -95,7 +95,7 @@ foreach ($json as $k => $v) {
 			<section class="image-slider slider-all-controls parallax controls-inside pt0 pb0 height-70" style="background: #292929;">
 				<ul class="slides">
 					<?php 
-					if($members_in >= 1 || $strangers_in >= 2){ ?>
+					if($members_in >= 1){ ?>
 					<li class="overlay image-bg">
 						<div class="background-image-holder">
 							<img alt="image" class="background-image" src="img/people.jpg">
