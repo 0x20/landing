@@ -819,7 +819,7 @@ do it<br>'T ain't what you do it's the time that you do it<br>'T ain't what you 
                     
                     left: '',
                     center: 'prev title next',
-                    right: 'agendaDay,agendaWeek,month'
+                    right: ''
                 },
                 timeFormat: 'H(:mm)',
 			          columnFormat: {
