@@ -72,10 +72,10 @@ foreach ($json as $k => $v) {
 										<li><a href="#home" class="inner-link">Intro</a></li>
 										<li><a href="#hackers" class="inner-link">Hackers?</a></li>
 										<li><a href="#hackerspace" class="inner-link">Hackerspace?</a></li>
+										<li><a href="#calendar" class="inner-link">Calendar</a></li>
 										<li><a href="#whatwedo" class="inner-link">Things we do</a></li>
 										<li><a href="#faq" class="inner-link">FAQ</a></li>
 										<li><a href="#stats" class="inner-link">Stats</a></li>
-										<li><a href="#calendar" class="inner-link">Calendar</a></li>
 										<li><a href="#location" class="inner-link">Contact</a></li>
 									</ul>
 								</li>
@@ -153,6 +153,22 @@ foreach ($json as $k => $v) {
 						</div>
 
 					</li>
+					</li>
+					<li class="overlay image-bg">
+						<div class="background-image-holder">
+							<img alt="image" class="background-image" src="img/tabledrawing.jpg">
+						</div>
+						<div class="container v-align-transform">
+							<div class="row text-center">
+								<div class="col-md-offset-1 col-md-10">
+									<h2 class="mb-xs-16 uppercase bold">HACKERSPACE GENT</h2>
+									<a class="btn btn-lg inner-link" href="#home">Start Drawing</a>
+								</div>
+							</div>
+
+						</div>
+
+					</li>
 					<li class="overlay image-bg">
 						<div class="background-image-holder">
 							<img alt="image" class="background-image" src="img/pancakes.jpg">
@@ -162,6 +178,26 @@ foreach ($json as $k => $v) {
 								<div class="col-md-offset-1 col-md-10">
 									<h2 class="mb-xs-16 uppercase bold">HACKERSPACE GENT</h2>
 									<a class="btn btn-lg inner-link" href="#home">Start Tasting</a>
+								</div>
+							</div>
+
+						</div>
+
+					</li>
+					<li class="vid-bg image-bg overlay">
+						<div class="background-image-holder">
+							<img alt="Background Image" class="background-image" src="img/splitflaps.jpg">
+						</div>
+						<div class="fs-vid-background">
+							<video muted="true" loop="">
+		                        <source src="video/bar.mp4" type="video/mp4">
+		                    </video>
+						</div>
+						<div class="container v-align-transform">
+							<div class="row">
+								<div class="col-sm-12 text-center">
+									<h2 class="mb-xs-16 uppercase bold">HACKERSPACE GENT</h2>
+									<a class="btn btn-lg inner-link" href="#home">Start Soldering</a>
 								</div>
 							</div>
 
@@ -240,6 +276,32 @@ foreach ($json as $k => $v) {
 
 				</div>
 
+			</section>
+			
+			
+			<a id="calendar"></a>
+			<section>
+				<div class="container">
+					<div class="row v-align-children">
+						
+						<div id="bootstrapModalFullCalendar"></div>
+						<div id="fullCalModal" class="modal fade">
+								<div class="modal-dialog">
+										<div class="modal-content">
+												<div class="modal-header">
+														<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">×</span> <span class="sr-only">close</span></button>
+														<h4 id="modalTitle" class="modal-title"></h4>
+												</div>
+												<div id="modalBody" class="modal-body"></div>
+												<div class="modal-footer">
+														<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+												</div>
+										</div>
+								</div>
+						</div>
+
+					</div>
+				</div>
 			</section>
 
 
@@ -493,18 +555,12 @@ foreach ($json as $k => $v) {
 			</section>
 
 
-
+			<!--
 
 			<a id="stats"></a>
 			<section class="bg-dark">
 				<div class="container">
 					<div class="row v-align-children">
-						<!--<div class="col-sm-6 col-md-5">
-							<h2 class="uppercase color-primary">fun to know</h2>
-							<hr>
-							<p>
-								Because we love statistics...<br></p>
-						</div>-->
 						<div class="col-sm-12">
 							<div class="col-sm-3 text-center">
 								<div class="feature bordered mb40">
@@ -524,7 +580,7 @@ foreach ($json as $k => $v) {
 							<div class="col-sm-3 text-center">
 								<div class="feature bordered mb30">
 									<h1 class="large">3</h1>
-									<h5 class="uppercase">Astronauts in<br> outer space </h5><!-- http://api.open-notify.org/astros.json -->
+									<h5 class="uppercase">Astronauts in<br> outer space </h5><!-- http://api.open-notify.org/astros.json 
 								</div>
 							</div>
 
@@ -539,32 +595,7 @@ foreach ($json as $k => $v) {
 
 				</div>
 
-			</section>
-			
-				
-
-			<a id="spacepulse"></a>
-			<section>
-				<div class="container">
-					<div class="row v-align-children">
-						<div class="col-md-7 col-sm-6 text-center mb-xs-24">
-							<a href="/pam/pameplot.png" data-lightbox="pulse"><img class="cast-shadow" alt="Screenshot" src="/pam/pameplot.png"></a>
-						</div>
-						<div class="col-md-4 col-md-offset-1 col-sm-5 col-sm-offset-1">
-							<h3>Space Pulse</h3>
-							<p>
-								This image teaches us something about the activity in the space last week, but we don't know what exactly..
-							</p>
-						</div>
-					</div>
-
-				</div>
-
-			</section>
-			
-			
-			
-			
+			</section>-->
 			
 			<section class="page-title page-title-3 image-bg overlay parallax">
 				<div class="background-image-holder">
@@ -586,33 +617,72 @@ foreach ($json as $k => $v) {
 		            </li>
 
 		        </ol>
-			</section>
-			
-			<a id="calendar"></a>
+			</section>				
+
+			<a id="spacepulse"></a>
 			<section>
 				<div class="container">
 					<div class="row v-align-children">
-						
-						<div id="bootstrapModalFullCalendar"></div>
-						<div id="fullCalModal" class="modal fade">
-								<div class="modal-dialog">
-										<div class="modal-content">
-												<div class="modal-header">
-														<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">×</span> <span class="sr-only">close</span></button>
-														<h4 id="modalTitle" class="modal-title"></h4>
-												</div>
-												<div id="modalBody" class="modal-body"></div>
-												<div class="modal-footer">
-														<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-												</div>
-										</div>
-								</div>
+						<div class="col-md-7 col-sm-6 text-center mb-xs-24">
+							<a href="https://hackerspace.gent/pam/pameplot.png" data-lightbox="pulse"><img class="cast-shadow" alt="Screenshot" src="https://hackerspace.gent/pam/pameplot.png"></a>
 						</div>
-
+						<div class="col-md-4 col-md-offset-1 col-sm-5 col-sm-offset-1">
+							<h3>Space Pulse</h3>
+							<p>
+								This image teaches us something about the activity in the space last week, but we don't know what exactly..
+							</p>
+						</div>
 					</div>
-				</div>
-			</section>
 
+				</div>
+
+			</section>
+			
+			
+			<!--
+			
+			
+			<section class="bg-dark pt120 pb120 pt-xs-40 pb-xs-40">
+		        <div class="container">
+		            <div class="row">
+		                <div class="col-md-offset-1 col-md-10 text-center">
+		                    <i class="ti-twitter-alt icon icon-lg color-primary mb40 mb-xs-24"></i>
+		                    <div class="twitter-feed tweets-slider large">
+		                        <div class="tweets-feed" data-feed-name="hsghent">
+															Coming Soon
+		                        </div>
+		                    </div>
+		                </div>
+		            </div>
+		            
+		        </div>
+		  </section>
+			
+			
+			<section>
+		        <div class="container">
+		            <div class="row">
+		                <div class="col-sm-12 text-center">
+		                    <h4 class="uppercase mb16">HSG Instagram</h4>
+		                    <p class="lead mb64">
+		                        https://www.instagram.com/hackerspace.gent/
+		                    </p>
+		                </div>
+		            </div>
+		            
+		            <div class="row">
+		                <div class="col-sm-12">
+		                    <div class="instafeed grid-gallery" data-user-name="hackerspace.gent">
+														Coming Soon
+		                        <ul></ul>
+		                    </div>
+		                </div>
+		            </div>
+		            
+		        </div>
+		        
+		  </section>
+			-->
 			<section class="page-title page-title-3 image-bg overlay parallax">
 				<div class="background-image-holder">
 					<img alt="Background Image" class="background-image" src="img/moody.jpg">
@@ -696,7 +766,7 @@ do it<br>'T ain't what you do it's the time that you do it<br>'T ain't what you 
 
 						<div class="col-sm-4 text-center">
 							<span class="fade-half">
-								© Copyright 2016-2056 Whitespace Vzw<br>Some Rights Reserved<br />Powered by <a href="http://yolo.sexy/">YOLO Sexy Webdesign</a> and Bloemist
+								© Copyright 2016-2056 hackerspace.gent Vzw<br>Some Rights Reserved<br />Powered by <a href="http://yolo.sexy/">YOLO Sexy Webdesign</a> and Bloemist
 							</span>
 						</div>
 
@@ -705,6 +775,7 @@ do it<br>'T ain't what you do it's the time that you do it<br>'T ain't what you 
 								<li><a href="https://twitter.com/HSGhent"><i class="ti-twitter-alt"></i></a></li>
 								<li><a href="https://www.facebook.com/hackerspace.gent"><i class="ti-facebook"></i></a></li>
 								<li><a href="https://github.com/0x20/landing"><i class="ti-github"></i></a></li>
+								<li><a href="https://www.instagram.com/hackerspace.gent/"><i class="ti-instagram"></i></a></li>
 								<!--<li><a href="#"><i class="ti-dribbble"></i></a></li>
 								<li><a href="#"><i class="ti-vimeo-alt"></i></a></li>-->
 							</ul>
@@ -722,6 +793,8 @@ do it<br>'T ain't what you do it's the time that you do it<br>'T ain't what you 
         <script src="js/ytplayer.min.js"></script>
         <script src="js/countdown.min.js"></script>
 				<script src="js/smooth-scroll.min.js"></script>
+				<script src="js/spectragram.min.js"></script>
+				<script src="js/twitterfetcher.min.js"></script>
         <script src="js/parallax.js"></script>
         <script src="js/scripts.js"></script>
         <script src="js/lightbox.js"></script>
