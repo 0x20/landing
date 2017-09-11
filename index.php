@@ -153,16 +153,15 @@ foreach ($json as $k => $v) {
 						</div>
 
 					</li>
-					</li>
+					
 					<li class="overlay image-bg">
 						<div class="background-image-holder">
-							<img alt="image" class="background-image" src="img/tabledrawing.jpg">
+							<img alt="image" class="background-image" src="img/arduino_back.png">
 						</div>
 						<div class="container v-align-transform">
 							<div class="row text-center">
 								<div class="col-md-offset-1 col-md-10">
-									<h2 class="mb-xs-16 uppercase bold">HACKERSPACE GENT</h2>
-									<a class="btn btn-lg inner-link" href="#home">Start Drawing</a>
+									<img alt="" class="" src="img/arduino_top.png">
 								</div>
 							</div>
 
@@ -184,26 +183,7 @@ foreach ($json as $k => $v) {
 						</div>
 
 					</li>
-					<li class="vid-bg image-bg overlay">
-						<div class="background-image-holder">
-							<img alt="Background Image" class="background-image" src="img/splitflaps.jpg">
-						</div>
-						<div class="fs-vid-background">
-							<video muted="true" loop="">
-		                        <source src="video/bar.mp4" type="video/mp4">
-		                    </video>
-						</div>
-						<div class="container v-align-transform">
-							<div class="row">
-								<div class="col-sm-12 text-center">
-									<h2 class="mb-xs-16 uppercase bold">HACKERSPACE GENT</h2>
-									<a class="btn btn-lg inner-link" href="#home">Start Soldering</a>
-								</div>
-							</div>
 
-						</div>
-
-					</li>
 					<?php } ?>
 				</ul>
 			</section>
