@@ -161,7 +161,7 @@ foreach ($json as $k => $v) {
 						<div class="container v-align-transform">
 							<div class="row text-center">
 								<div class="col-md-offset-1 col-md-10">
-									<img alt="" class="" src="img/arduino_top.png">
+									<img alt="" class="" src="img/arduino_top.png" height="351px">
 								</div>
 							</div>
 
@@ -577,28 +577,28 @@ foreach ($json as $k => $v) {
 
 			</section>-->
 			
-			<section class="page-title page-title-3 image-bg overlay parallax">
-				<div class="background-image-holder">
-					<img alt="Background Image" class="background-image" src="img/moody.jpg">
-				</div>
-							<div class="container">
-					<div class="row">
-						<div class="col-sm-12 text-center">
-							<h4 class="uppercase mb0">“My primary goal of hacking was the intellectual curiosity, the seduction of adventure.”</h3>
+			<section class="bg-dark">
+		        <div class="container">
+		            <div class="row">
+		                <div class="col-sm-12 text-center">
+		                    <h4 class="uppercase mb16">HSG Instagram</h4>
+		                    <p class="lead mb64">https://www.instagram.com/hackerspace.gent/
+		                    </p>
 		                </div>
 		            </div>
-
+		            
+		            <div class="row">
+		                <div class="col-sm-12">
+		                    <div class="instafeed grid-gallery" data-user-name="hackerspace.gent">
+		                        <ul></ul>
+		                    </div>
+		                </div>
+		            </div>
+		            
 		        </div>
-
-		        <ol class="breadcrumb breadcrumb-2">
-
-		            <li>
-		                <a href="#">- Kevin Mitnick</a>
-		            </li>
-
-		        </ol>
-			</section>				
-
+		        
+		    </section>
+			
 			<a id="spacepulse"></a>
 			<section>
 				<div class="container">
@@ -617,59 +617,14 @@ foreach ($json as $k => $v) {
 				</div>
 
 			</section>
-			
-			
-			<!--
-			
-			
-			<section class="bg-dark pt120 pb120 pt-xs-40 pb-xs-40">
-		        <div class="container">
-		            <div class="row">
-		                <div class="col-md-offset-1 col-md-10 text-center">
-		                    <i class="ti-twitter-alt icon icon-lg color-primary mb40 mb-xs-24"></i>
-		                    <div class="twitter-feed tweets-slider large">
-		                        <div class="tweets-feed" data-feed-name="hsghent">
-															Coming Soon
-		                        </div>
-		                    </div>
-		                </div>
-		            </div>
-		            
-		        </div>
-		  </section>
-			
-			
-			<section>
-		        <div class="container">
-		            <div class="row">
-		                <div class="col-sm-12 text-center">
-		                    <h4 class="uppercase mb16">HSG Instagram</h4>
-		                    <p class="lead mb64">
-		                        https://www.instagram.com/hackerspace.gent/
-		                    </p>
-		                </div>
-		            </div>
-		            
-		            <div class="row">
-		                <div class="col-sm-12">
-		                    <div class="instafeed grid-gallery" data-user-name="hackerspace.gent">
-														Coming Soon
-		                        <ul></ul>
-		                    </div>
-		                </div>
-		            </div>
-		            
-		        </div>
-		        
-		  </section>
-			-->
+
 			<section class="page-title page-title-3 image-bg overlay parallax">
 				<div class="background-image-holder">
 					<img alt="Background Image" class="background-image" src="img/moody.jpg">
 				</div>
 				
 				
-				<?php if (rand(1,1) == 1){ ?>
+				<?php if (rand(0,1) == 0){ ?>
 				<div class="container">
 					<div class="row">
 						<div class="col-sm-12 text-center">
@@ -824,6 +779,27 @@ do it<br>'T ain't what you do it's the time that you do it<br>'T ain't what you 
                 },
             });
         });
+			
+			
+			
+				var Spectra = {
+  instaToken: '5738764140.70d477f.d10c7d5f9bc94977b6ea0f6e53dfe01d',
+  instaID: ' 70d477fbcea2413690e32b7c15163261',
+
+  init: function () {
+    $.fn.spectragram.accessData = {
+      accessToken: this.instaToken,
+      clientID: this.instaID
+    };
+
+    $('.instafeed').spectragram('getUserFeed',{
+      max: 12,
+      query: 'hackerspace.gent'
+    });
+  }
+}
+
+Spectra.init();
     </script>
 
     </body>

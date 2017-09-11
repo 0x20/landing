@@ -256,11 +256,11 @@ $(document).ready(function() {
        });
 
     // Instagram Feed
-    
+    /*
     if($('.instafeed').length){
     	jQuery.fn.spectragram.accessData = {
-			accessToken: '1406933036.dc95b96.2ed56eddc62f41cbb22c1573d58625a2',
-			clientID: '87e6d2b8a0ef4c7ab8bc45e80ddd0c6a'
+			accessToken: '5738764140.70d477f.d10c7d5f9bc94977b6ea0f6e53dfe01d',
+			clientID: '70d477fbcea2413690e32b7c15163261'
 		};	
 
         $('.instafeed').each(function() {
@@ -270,7 +270,7 @@ $(document).ready(function() {
                 max: 12
             });
         });
-    }   
+    }   */
 
    
 
