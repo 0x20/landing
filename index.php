@@ -582,7 +582,7 @@ foreach ($json as $k => $v) {
 		            <div class="row">
 		                <div class="col-sm-12 text-center">
 		                    <h4 class="uppercase mb16">HSG Instagram</h4>
-		                    <p class="lead mb64">https://www.instagram.com/hackerspace.gent/
+		                    <p class="lead mb64">
 		                    </p>
 		                </div>
 		            </div>
