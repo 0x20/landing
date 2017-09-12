@@ -27,7 +27,8 @@
 <?php
 		
 if(!isset($_GET['reload'])){
-	include 'hits.php';
+	include_once("log/logipandtime.php");
+	logIpAndTime("log/iplog.log");
 }			
 		
 $members_in=0;
@@ -581,7 +582,7 @@ foreach ($json as $k => $v) {
 		        <div class="container">
 		            <div class="row">
 		                <div class="col-sm-12 text-center">
-		                    <h4 class="uppercase mb16">HSG Instagram</h4>
+		                    <h4 class="uppercase mb16">HSG on Instagram</h4>
 		                    <p class="lead mb64">
 		                    </p>
 		                </div>
@@ -793,7 +794,7 @@ do it<br>'T ain't what you do it's the time that you do it<br>'T ain't what you 
     };
 
     $('.instafeed').spectragram('getUserFeed',{
-      max: 12,
+      max: 4,
       query: 'hackerspace.gent'
     });
   }
