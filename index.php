@@ -84,6 +84,9 @@ foreach ($json as $k => $v) {
 									<a href="/wiki">Wiki</a>
 								</li>
 								<li>
+									<a href="http://pad.hackerspace.gent/">Pad</a>
+								</li>
+								<li>
 									<a href="http://hub.hackerspace.gent/">Hub</a>
 								</li>
 							</ul>
