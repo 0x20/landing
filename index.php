@@ -753,9 +753,10 @@ do it<br>'T ain't what you do it's the time that you do it<br>'T ain't what you 
         $(document).ready(function() {
             $('#bootstrapModalFullCalendar').fullCalendar({
                 googleCalendarApiKey: 'AIzaSyB5BCTDN5vLfegBap8qpo0N2PX_fKYmL9o',
-                events: {
-                  googleCalendarId: 'cnbo008is5q30898s0nkg5cau0@group.calendar.google.com'
-                },
+                events: 
+			<?php
+			echo file_get_contents('https://hub.kwitz.net/data/events/event_output_r.php');
+			?>,
                 firstDay: 1,
                 header: {
                     
