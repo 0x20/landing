@@ -708,7 +708,7 @@ do it<br>'T ain't what you do it's the time that you do it<br>'T ain't what you 
 
 						<div class="col-sm-4 text-center">
 							<span class="fade-half">
-								© Copyright 2016-2056 hackerspace.gent Vzw<br>Some Rights Reserved<br />Powered by <a href="http://yolo.sexy/">YOLO Sexy Webdesign</a> and Bloemist
+								© Copyright 2016-2056 hackerspace.gent Vzw<br>Some Rights Reserved<br />Powered by <a href="http://yolo.sexy/">YOLO Sexy Webdesign</a> and <a href="http://bloemist.ninja">Bloemist</a>
 							</span>
 						</div>
 
