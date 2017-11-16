@@ -76,7 +76,6 @@ foreach ($json as $k => $v) {
 										<li><a href="#calendar" class="inner-link">Calendar</a></li>
 										<li><a href="#whatwedo" class="inner-link">Things we do</a></li>
 										<li><a href="#faq" class="inner-link">FAQ</a></li>
-										<li><a href="#stats" class="inner-link">Stats</a></li>
 										<li><a href="#location" class="inner-link">Contact</a></li>
 									</ul>
 								</li>
@@ -687,11 +686,13 @@ do it<br>'T ain't what you do it's the time that you do it<br>'T ain't what you 
 				<div class="col-md-6 content">
 					<h6 class="uppercase text-center"><br /><a href="tel:+3293953323">09 395 33 23</a><br>
 					info@0x20.be</h6>
-					<h6 class="uppercase text-center">Blekerijstraat 75, Ghent, Belgium
+					<h6 class="uppercase text-center">Blekerijstraat 75, 9000 Ghent, Belgium
 											<br /> We're in room 1.21</h6>
+					<h6 class="uppercase text-center"><a href="https://map.what3words.com/unroll.voices.purely">unroll.voices.purely</a></h6>
 					<!--<h6 class="uppercase text-center"><br />Open the gate on Thursdays<br /> by calling +32 (0) 484 73 95 88</h6>-->
 					
 					<h6 class="uppercase text-center">come alone and make sure<br> you are not being followed</h6>
+					
 
 				</div>
 			</section>
