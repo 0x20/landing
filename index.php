@@ -680,7 +680,7 @@ do it<br>'T ain't what you do it's the time that you do it<br>'T ain't what you 
 			<section class="image-square right">
 				<div class="col-md-6 p0 image">
 					<div class="map-holder background-image-holder">
-						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2507.6433085292456!2d3.7301612157442254!3d51.05967367956417!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c37136564f91fd%3A0xf9208cdc8e7f17f7!2sBlekerijstraat+75%2C+9000+Gent!5e0!3m2!1snl!2sbe!4v1473985048267"></iframe>
+						<iframe src="map.php"></iframe>
 					</div>
 				</div>
 				<div class="col-md-6 content">
