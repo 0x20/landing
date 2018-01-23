@@ -40,7 +40,7 @@
 
 	var hsIcon = new Icon({iconUrl: "https://hackerspace.gent/landing/img/logo-dark.png"}); // TODO Change to map_icon.png once the icon is live
 
-	L.marker([51.0599962, 3.7323778], {icon: hsIcon}).bindPopup("Blekerijstraat 75, eerste verdieping, lokaal 1:21").addTo(map);
+	L.marker([51.0599962, 3.7323778], {icon: hsIcon}).bindPopup("Blekerijstraat 75, Up the stairs, Room 1:21").addTo(map);
 
 </script>
 
