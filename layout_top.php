@@ -47,7 +47,7 @@ foreach ($json as $k => $v) {
 	}
 }
 ?>
-	<body class="boxed-layout scroll-assist">
+	<body class="scroll-assist">
 
 		<div class="nav-container">
 		<a id="top"></a>

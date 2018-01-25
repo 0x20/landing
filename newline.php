@@ -71,8 +71,8 @@
 		font-weight: bold;
 		text-transform: uppercase;
 		color: #292929;
-		background-color: #eee;
-		border: 3px solid #eee;
+		background-color: #e5692c;
+		border: 3px solid #e5692c;
 		text-align:center;
 		font-size:18px;
 		margin:30px 0px;
@@ -125,11 +125,11 @@
 						<a class="btn btn-lg" href="https://www.facebook.com/events/143174433013216/">Facebook</a>
 						<a class="btn btn-lg" href="https://hackerspace.gent/newline/2018/cfp">Participate</a>
 					</center>
-					<div class="day">Friday</div>
+					<div class="day">Friday 13/04</div>
 					<?php parse_day(1523635200,1523656800); ?>
-					<div class="day">Saturday</div>
+					<div class="day">Saturday 14/04</div>
 					<?php parse_day(1523656800,1523743200); ?>
-					<div class="day">Sunday</div>
+					<div class="day">Sunday 15/04</div>
 					<?php parse_day(1523743200,1523872800); ?>
 				</div>
 			</div>
@@ -138,22 +138,17 @@
 
 	</section>
 
-<section class="page-title page-title-3 image-bg overlay parallax" style="height:200px;">
-		<div class="background-image-holder">
-			<img alt="Background Image" class="background-image" src="img/people.jpg">
-		</div>
-		<div class="container">
-			<div class="row">
-				<div class="col-sm-12 text-center">
-					<h3 class="uppercase mb0">faq</h3>
-				</div>
-			</div>
-
-		</div>
-	</section>
-
 			<section>
 				<div class="container">
+					<div class="row">
+						<div class="col-sm-12 text-center">
+							<h4 class="mb16 uppercase">FAQ</h4>
+							<p class="lead mb64">
+								Frequently Asked Questions
+							</p>
+						</div>
+					</div>
+
 					<div class="row">
 						<div class="col-sm-6">
 							<ul class="accordion accordion-1 one-open">
