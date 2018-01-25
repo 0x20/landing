@@ -86,7 +86,7 @@
 
 
 <?php
-							$json = file_get_contents('newline/2018/data.json');
+							$json = file_get_contents('https://hackerspace.gent/newline/2018/json/data.json');
 							$json_data = json_decode($json,true);
 							//print_r($json_data);
 							//ksort($json_data);
