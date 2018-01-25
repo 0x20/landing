@@ -72,7 +72,7 @@ foreach ($json as $k => $v) {
 									<a href="index.php">Home</a>
 								</li>
 								<li>
-									<a href="newline.php">Newline</a>
+									<a href="newline.php">Newline 0x08</a>
 								</li>
 								<li class="has-dropdown">
 									<a href="#top">More</a>
