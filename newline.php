@@ -1,5 +1,5 @@
 <?php $slider = true; include 'layout_top.php'; ?>
-			<section class="image-slider slider-all-controls parallax controls-inside pt0 pb0 height-70" style="background: #292929;">
+			<!--<section class="image-slider slider-all-controls parallax controls-inside pt0 pb0 height-70" style="background: #292929;">
 				<ul class="slides">
 					<li class="overlay image-bg" >
 						<div class="background-image-holder">
@@ -15,7 +15,7 @@
 
 					</li>
 				</ul>
-			</section>
+			</section>-->
 <style>
 	h5 {
 		font-weight: bold;
