@@ -3,14 +3,11 @@
 				<ul class="slides">
 					<li class="overlay image-bg" >
 						<div class="background-image-holder">
-							<img alt="image" class="background-image" src="img/people.jpg">
+							<img alt="image" class="background-image" src="img/poster.png">
 						</div>
 						<div class="container v-align-transform">
 							<div class="row text-center">
 								<div class="col-md-offset-1 col-md-10">
-									<h2 class="mb-xs-16 uppercase bold">Newline 0x08</h2>
-									<a class="btn btn-lg" href="https://www.facebook.com/events/143174433013216/">Facebook</a>
-									<a class="btn btn-lg" href="https://hackerspace.gent/newline/2018/cfp">Participate</a>
 								</div>
 							</div>
 
@@ -121,7 +118,13 @@
 	<section class="bg-dark">
 		<div class="container">
 			<div class="row">
+				
 				<div class="col-sm-10 col-sm-offset-1">
+					<h3 class="uppercase color-primary mb40 mb-xs-24 text-center">Schedule<br>(more to be announced soon)</h3>
+					<center>
+						<a class="btn btn-lg" href="https://www.facebook.com/events/143174433013216/">Facebook</a>
+						<a class="btn btn-lg" href="https://hackerspace.gent/newline/2018/cfp">Participate</a>
+					</center>
 					<div class="day">Friday</div>
 					<?php parse_day(1523635200,1523656800); ?>
 					<div class="day">Saturday</div>
