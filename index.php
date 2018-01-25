@@ -1,4 +1,4 @@
-<?php include 'layout_top.php'; ?>
+<?php $slider = true; include 'layout_top.php'; ?>
 
 			<a id="home"></a>
 			<section>

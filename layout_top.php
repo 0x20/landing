@@ -1,4 +1,4 @@
-
+<?php if (!isset($slider)){ $slider = false; } ?>
 	<!doctype html>
 	<html lang="en">
 	<head>
@@ -53,7 +53,7 @@ foreach ($json as $k => $v) {
 
 
 
-			<nav class="bg-dark absolute transparent">
+			<nav class="bg-dark absolute <?php if($slider){ echo 'transparent'; }?>">
 				<div class="nav-bar">
 					<div class="module left">
 						<a href="index.php">
@@ -90,7 +90,7 @@ foreach ($json as $k => $v) {
 		</div>
 		<div class="main-container">
 
-
+		<?php if($slider){ ?>
 			<section class="image-slider slider-all-controls parallax controls-inside pt0 pb0 height-70" style="background: #292929;">
 				<ul class="slides">
 					<?php 
@@ -186,5 +186,5 @@ foreach ($json as $k => $v) {
 					<?php } ?>
 				</ul>
 			</section>
-
+		<?php } //slider check ?>
 <!-------------------------------------------------------------------------------------------------------------------------------- -->
