@@ -1,4 +1,106 @@
-<?php $slider = true; include 'layout_top.php'; ?>
+<?php $slider = true;$home = true;  include 'layout_top.php'; ?>
+
+
+			<section class="image-slider slider-all-controls parallax controls-inside pt0 pb0 height-70" style="background: #292929;">
+				<ul class="slides">
+					<?php 
+					if($members_in >= 1){ ?>
+					<li class="overlay image-bg">
+						<div class="background-image-holder">
+							<img alt="image" class="background-image" src="img/people.jpg">
+						</div>
+						<div class="container v-align-transform">
+							<div class="row text-center">
+								<div class="col-md-offset-1 col-md-10">
+									<h2 class="mb-xs-16 uppercase bold">HACKERSPACE GENT</h2>
+									<h2 class="mb-xs-16 uppercase bold">Open right now!</h2>
+									<p class="lead uppercase mb40">
+										<?php if($strangers_in > 0){if($strangers_in == 1){ echo "1 device and "; }else{ echo $strangers_in." devices and "; }} if($members_in == 1){ echo "1 human "; }else{ echo $members_in." humans "; }?>detected</p>
+									<p class="lead uppercase mb40">
+										<?php echo $members_list; ?>
+									</p>
+								</div>
+							</div>
+
+						</div>
+
+					</li>
+
+					<?php }else{ ?>
+					<li class="overlay image-bg" >
+						<div class="background-image-holder">
+							<img alt="image" class="background-image" src="img/hall2.jpg">
+						</div>
+						<div class="container v-align-transform">
+							<div class="row text-center">
+								<div class="col-md-offset-1 col-md-10">
+									<h2 class="mb-xs-16 uppercase bold">HACKERSPACE GENT</h2>
+									<a class="btn btn-lg inner-link" href="#home">Start Exploring</a>
+								</div>
+							</div>
+
+						</div>
+
+					</li>
+					<li class="vid-bg image-bg overlay">
+						<div class="background-image-holder">
+							<img alt="Background Image" class="background-image" src="img/splitflaps.jpg">
+						</div>
+						<div class="fs-vid-background">
+							<video muted="true" loop="">
+		                        <source src="video/splitflaps.mp4" type="video/mp4">
+		                    </video>
+						</div>
+						<div class="container v-align-transform">
+							<div class="row">
+								<div class="col-sm-12 text-center">
+									<h2 class="mb-xs-16 uppercase bold">HACKERSPACE GENT</h2>
+									<a class="btn btn-lg inner-link" href="#home">Start To Flap</a>
+								</div>
+							</div>
+
+						</div>
+
+					</li>
+					
+					<li class="overlay image-bg">
+						<div class="background-image-holder">
+							<img alt="image" class="background-image" src="img/arduino_back.png">
+						</div>
+						<div class="container v-align-transform">
+							<div class="row text-center">
+								<div class="col-md-offset-1 col-md-10">
+									<img alt="" class="" src="img/arduino_top.png" height="351px">
+								</div>
+							</div>
+
+						</div>
+
+					</li>
+					<li class="overlay image-bg">
+						<div class="background-image-holder">
+							<img alt="image" class="background-image" src="img/pancakes.jpg">
+						</div>
+						<div class="container v-align-transform">
+							<div class="row text-center">
+								<div class="col-md-offset-1 col-md-10">
+									<h2 class="mb-xs-16 uppercase bold">HACKERSPACE GENT</h2>
+									<a class="btn btn-lg inner-link" href="#home">Start Tasting</a>
+								</div>
+							</div>
+
+						</div>
+
+					</li>
+
+					<?php } ?>
+				</ul>
+			</section>
+
+
+
+
+
 
 			<a id="home"></a>
 			<section>
