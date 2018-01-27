@@ -97,7 +97,7 @@
 
 										echo "<span class='".$value['type']."'>&nbsp;".$value['type']."&nbsp;</span>";
 
-										if (date('H:i', $value['start']) == "00:00"){
+										if (date('H:i', $value['start']) == "00:01"){
 											echo "xx:xx - xx:xx";
 										}else{
 											echo date('H:i', $value['start'])." - ".date('H:i', $value['start']+$value['duration']);
@@ -131,6 +131,8 @@
 					<?php parse_day(1523656800,1523743200); ?>
 					<div class="day">Sunday 15/04</div>
 					<?php parse_day(1523743200,1523872800); ?>
+					<div class="day">Unplanned</div>
+					<?php parse_day(0,1000000000); ?>
 				</div>
 			</div>
 
