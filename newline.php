@@ -124,6 +124,7 @@
 					<center>
 						<a class="btn btn-lg" href="https://www.facebook.com/events/143174433013216/">Facebook</a>
 						<a class="btn btn-lg" href="https://hackerspace.gent/newline/2018/cfp">Participate</a>
+						<a class="btn btn-lg" href="https://hackerspace.gent/drop/newline.png">Poster</a>
 					</center>
 					<div class="day">Friday 13/04</div>
 					<?php parse_day(1523635200,1523656800); ?>
