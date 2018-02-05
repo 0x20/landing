@@ -7,7 +7,9 @@
 		<title>HS.gent</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<meta property="og:image" content="https://hackerspace.gent/landing/img/preview.png" />
-
+		<meta property="og:title" content="Hackerspace.Gent"/>
+		<meta property="og:site_name" content="Hackerspace.Gent"/>
+		<meta property="og:description"  content="Hackerspace Gent (0x20) is a hackerspace in the wonderful city of Ghent, Belgium. It is a physical space run by a group of people dedicated to various aspects of constructive & creative tinkering. This page is an ever growing resource of information about who we are, what we do, and how you can become a part of all the awesomeness." />
 		<link href="css/font-awesome.min.css" rel="stylesheet" type="text/css" media="all">
 		<link href="css/themify-icons.css" rel="stylesheet" type="text/css" media="all" />
 		<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
