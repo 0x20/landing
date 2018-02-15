@@ -84,8 +84,10 @@
 
 <?php
 							$json = file_get_contents('https://hackerspace.gent/newline/2018/json/data.json');
-							$json_data = json_decode($json,true);
-							//print_r($json_data);
+							$json = file_get_contents('http://bbx.kwitz.net/dev/newline/2018/json/data.json');	
+							$json_data_raw = json_decode($json,true);
+							$json_data = $json_data_raw['event_schedule'];
+							//print_r($json_data_raw['event_schedule']);
 							//ksort($json_data);
 							
 							function parse_day($from,$to){
@@ -97,7 +99,7 @@
 
 										echo "<span class='".$value['type']."'>&nbsp;".$value['type']."&nbsp;</span>";
 
-										if (date('H:i', $value['start']) == "00:01" or date('Y', $value['start']) == "1970"){
+										if (date('H:i', $value['start']) == "00:01" or date('Y', $value['start']) == "1970" or $value['scheduled'] == 'day'){
 											echo "xx:xx - xx:xx";
 										}else{
 											echo date('H:i', $value['start'])." - ".date('H:i', $value['start']+$value['duration']);
