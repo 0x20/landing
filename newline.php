@@ -84,7 +84,6 @@
 
 <?php
 							$json = file_get_contents('https://hackerspace.gent/newline/2018/json/data.json');
-							$json = file_get_contents('http://bbx.kwitz.net/dev/newline/2018/json/data.json');	
 							$json_data_raw = json_decode($json,true);
 							$json_data = $json_data_raw['event_schedule'];
 							//print_r($json_data_raw['event_schedule']);
