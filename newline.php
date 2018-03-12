@@ -88,6 +88,15 @@
 							$json_data = $json_data_raw['event_schedule'];
 							//print_r($json_data_raw['event_schedule']);
 							//ksort($json_data);
+
+							// sort on event start time
+							function cmp_event_start($a, $b) {
+								if ($a['start'] == $b['start']) {
+									return 0;
+								}
+								return ($a['start'] < $b['start']) ? -1 : 1;
+							}
+							usort($json_data, "cmp_event_start");
 							
 							function parse_day($from,$to){
 								global $json_data;
