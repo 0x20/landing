@@ -137,11 +137,11 @@
 						<a class="btn btn-lg" href="https://hackerspace.gent/drop/newline.png">Poster</a>
 					</center>
 					<div class="day">Friday 13/04</div>
-					<?php parse_day(1523635200,1523656800); ?>
+					<?php parse_day(1523570400+6*3600,1523656800+6*3600); ?>
 					<div class="day">Saturday 14/04</div>
-					<?php parse_day(1523656800,1523743200); ?>
+					<?php parse_day(1523656800+6*3600,1523743200+6*3600); ?>
 					<div class="day">Sunday 15/04</div>
-					<?php parse_day(1523743200,1523872800); ?>
+					<?php parse_day(1523743200+6*3600,1523872800+6*3600); ?>
 					<div class="day">Time Unknown</div>
 					<?php parse_day(0,1000000000); ?>
 				</div>
