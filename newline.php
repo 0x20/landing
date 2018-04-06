@@ -130,10 +130,9 @@
 			<div class="row">
 				
 				<div class="col-sm-10 col-sm-offset-1">
-					<h3 class="uppercase color-primary mb40 mb-xs-24 text-center">Schedule<br>(more to be announced soon)</h3>
+					<h3 class="uppercase color-primary mb40 mb-xs-24 text-center">Schedule</h3>
 					<center>
 						<a class="btn btn-lg" href="https://www.facebook.com/events/143174433013216/">Facebook</a>
-						<a class="btn btn-lg" href="https://hackerspace.gent/newline/2018/cfp">Participate</a>
 						<a class="btn btn-lg" href="https://hackerspace.gent/drop/newline.png">Poster</a>
 					</center>
 					<div class="day">Friday 13/04</div>
