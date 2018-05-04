@@ -376,7 +376,7 @@
 									</div>
 									<div class="content">
 										<p>
-											Nice! You can find our location on the bottom of this page. We recommend coming over on a Thursday evening, our social night. That way you'll have a bunch of people who can show you around and you won't be bothered by technical projects. However, you are welcome anytime when there are members present. Also look <a href="https://hackerspace.gent/wiki/index.php/Main_Page">here</a> for more info about visiting and getting in.
+											Great! You can find our location on the bottom of this page. We recommend coming over on a Thursday evening, our social night. That way you'll have a bunch of people who can show you around. However, you are welcome anytime when there are members present. To enter: call +32(0)484739588 on Thursday night the right front gate will open automatically, at other times someone has to pick up the phone and buzz you in. Also look <a href="https://hackerspace.gent/wiki/index.php/Main_Page">here</a> for more info about visiting and getting in.
 										</p>
 									</div>
 								</li>
@@ -386,7 +386,7 @@
 									</div>
 									<div class="content">
 										<p>
-										Jup, we're the same people. Whitespace is our previous name. It's still remembered in our logo.	
+										Yup, we're the same people. Whitespace is our previous name. It's still remembered in our logo.	
 										</p>
 									</div>
 								</li>
