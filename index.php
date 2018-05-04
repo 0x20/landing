@@ -65,12 +65,12 @@
 					<!--
 					<li class="overlay image-bg">
 						<div class="background-image-holder">
-							<img alt="image" class="background-image" src="img/arduino_back.png">
+							<img alt="image" class="background-image" src="img/arduino_back.jpg">
 						</div>
 						<div class="container v-align-transform">
 							<div class="row text-center">
 								<div class="col-md-offset-1 col-md-10">
-									<img alt="" class="" src="img/arduino_top.png" height="351px">
+									<img alt="" class="" src="img/arduino_top.jpg" height="351px">
 								</div>
 							</div>
 
