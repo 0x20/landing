@@ -48,7 +48,7 @@
 						</div>
 						<div class="fs-vid-background">
 							<video muted="true" loop="">
-		                        <source src="video/splitflaps.mp4" type="video/mp4">
+		                        <source src="video/splitflaps_opt_bw.mp4" type="video/mp4">
 		                    </video>
 						</div>
 						<div class="container v-align-transform">
