@@ -376,7 +376,7 @@
 									</div>
 									<div class="content">
 										<p>
-											Great! You can find our location on the bottom of this page. We recommend coming over on a Thursday evening, our social night. That way you'll have a bunch of people who can show you around. However, you are welcome anytime when there are members present. To enter: call +32(0)484739588 on Thursday night and the right front gate will open automatically. At other times call 093953323, if a member is present (s)he will let you in. <a href="https://hackerspace.gent/wiki/index.php/Main_Page">Details about visiting.</a>
+											Great! You can find our location on the bottom of this page. We recommend coming over on a Thursday evening, our social night. That way you'll have a bunch of people who can show you around. However, you are welcome anytime when there are members present. To enter: call +32(0)484739588 on Thursday night and the right front gate will open automatically. At other times call 093953323, if a member is present (s)he will let you in. <a href="https://wiki.hackerspace.gent/Main_Page">Details about visiting.</a>
 										</p>
 									</div>
 								</li>
