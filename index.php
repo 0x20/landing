@@ -256,7 +256,7 @@
 									<div class="content">
 											<p>
 												Once upon a time, our hackerspace got a bunch of classic airport/trainstation flappers (you know, the things that used to take up the infoboards). A few people were intrigued by this forgotton technology so they made a 140-character flapper board that can show tweets from a live feed. This amazing contraption is now visible in the offices of USE-IT Brussels. His 4-character baby brother is visible in our space, he shows us who is entering the building.<br /><br /> <a href="https://vimeo.com/98027612">Check out a demonstration
-												of the 140-character display.</a>.
+												of the 140-character display</a>.
 											<br><br>
 												<a href="img/flappers.jpg" data-lightbox="flaps"><img src="img/flappers.jpg"></a><a href="img/splitflaps2.jpg" data-lightbox="flaps"><img src="img/splitflaps2.jpg"></a><br>
 											</p>
