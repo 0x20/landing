@@ -73,16 +73,19 @@ foreach ($json as $k => $v) {
 								<li>
 									<a href="index.php">Home</a>
 								</li>
-								<li>
-									<a href="newline.php">Newline 0x08</a>
-								</li>
 								<li class="has-dropdown">
-									<a href="#top">More</a>
+									<a href="#top">Tools</a>
 									<ul>
 										<li><a href="http://wiki.hackerspace.gent/">Wiki</a></li>
 										<li><a href="http://hub.hackerspace.gent/">Hub</a></li>
 										<li><a href="http://pad.hackerspace.gent/">Pad</a></li>
-										<li><a href="heatmap.php">Heatmap</a></li>
+									</ul>
+								</li>
+                <li class="has-dropdown">
+									<a href="#top">More</a>
+									<ul>
+										<li><a href="newline.php">Newline 0x09</a></li>
+										<!--<li><a href="membership.php">Membership</a></li>-->
 									</ul>
 								</li>
 							</ul>

@@ -83,7 +83,7 @@
 
 
 <?php
-							$json = file_get_contents('https://hackerspace.gent/newline/2018/json/data.json');
+							$json = file_get_contents('../newline/2019/json/data.json');
 							$json_data_raw = json_decode($json,true);
 							$json_data = $json_data_raw['event_schedule'];
 							//print_r($json_data_raw['event_schedule']);
@@ -110,7 +110,7 @@
 										if (date('H:i', $value['start']) == "00:01" or date('Y', $value['start']) == "1970" or $value['scheduled'] == 'day'){
 											echo "xx:xx - xx:xx";
 										}else{
-											echo date('H:i', $value['start'])." - ".date('H:i', $value['start']+$value['duration']);
+											echo date('d-m-Y H:i', $value['start'])." - ".date('H:i', $value['start']+$value['duration']);
 										}
 
 										echo " : ".$value['name'];
@@ -132,19 +132,18 @@
 				<div class="col-sm-10 col-sm-offset-1">
 					<h3 class="uppercase color-primary mb40 mb-xs-24 text-center">Schedule</h3>
 					<center>
-						<a class="btn btn-lg" href="https://hackerspace.gent/drop/newline.png">Poster</a>
+						<a class="btn btn-lg" href="https://hackerspace.gent/drop/newline19/poster2019_2.png">Poster</a>
 						<a class="btn btn-lg" href="https://hackerspace.gent/landing/index.php#location">Location</a>
-						<a class="btn btn-lg" href="https://www.facebook.com/events/143174433013216/">Facebook</a>
 					</center>
-					<div class="day">Friday 13/04</div>
-					<?php parse_day(1523570400+6*3600,1523656800+6*3600); ?>
-					<div class="day">Saturday 14/04</div>
-					<?php parse_day(1523656800+6*3600,1523743200+6*3600); ?>
-					<div class="day">Sunday 15/04</div>
-					<?php parse_day(1523743200+6*3600,1523872800+6*3600); ?>
+					<div class="day">Friday 26/04</div>
+					<?php parse_day(1556229600+6*3600,1556316000+6*3600); ?>
+					<div class="day">Saturday 27/04</div>
+					<?php parse_day(1556316000+6*3600,1556416800+6*3600); ?>
+					<div class="day">Sunday 28/04</div>
+					<?php parse_day(1556416800+6*3600,1556488800+6*3600); ?>
 					<div class="day">Time Unknown</div>
 					<?php parse_day(0,1000000000); ?>
-				</div>
+				</div>             
 			</div>
 
 		</div>
