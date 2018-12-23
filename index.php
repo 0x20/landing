@@ -3,7 +3,7 @@
 
 			<section class="image-slider slider-all-controls parallax controls-inside pt0 pb0 height-70" style="background: #292929;">
 				<ul class="slides">
-					<?php 
+					<?php
 					if($members_in >= 1){ ?>
 					<li class="overlay image-bg">
 						<div class="background-image-holder">
@@ -48,7 +48,7 @@
 						</div>
 						<div class="fs-vid-background">
 							<video muted="true" loop="">
-		                        <source src="video/splitflaps.mp4" type="video/mp4">
+		                        <source src="video/splitflaps_opt_bw.mp4" type="video/mp4">
 		                    </video>
 						</div>
 						<div class="container v-align-transform">
@@ -65,12 +65,12 @@
 					<!--
 					<li class="overlay image-bg">
 						<div class="background-image-holder">
-							<img alt="image" class="background-image" src="img/arduino_back.png">
+							<img alt="image" class="background-image" src="img/arduino_back.jpg">
 						</div>
 						<div class="container v-align-transform">
 							<div class="row text-center">
 								<div class="col-md-offset-1 col-md-10">
-									<img alt="" class="" src="img/arduino_top.png" height="351px">
+									<img alt="" class="" src="img/arduino_top.jpg" height="351px">
 								</div>
 							</div>
 
@@ -170,13 +170,13 @@
 				</div>
 
 			</section>
-			
-			
+
+
 			<a id="calendar"></a>
 			<section>
 				<div class="container">
 					<div class="row v-align-children">
-						
+
 						<div id="bootstrapModalFullCalendar"></div>
 						<div id="fullCalModal" class="modal fade">
 								<div class="modal-dialog">
@@ -255,8 +255,8 @@
 									</div>
 									<div class="content">
 											<p>
-												Once upon a time, our hackerspace got a bunch of classic airport/trainstation flappers (you know, the things that used to take up the infoboards). A few people were intrigued by this forgotton technology so they made a 140-character flapper board that can show tweets from a live feed. This amazing contraption is now visible in the offices of USE-IT Brussels. His 4-character baby brother is visible in our space, he shows us who is entering the building.<br /><br />Check out a demonstration
-												of the 140-character display <a href="https://vimeo.com/98027612">here</a>.
+												Once upon a time, our hackerspace got a bunch of classic airport/trainstation flappers (you know, the things that used to take up the infoboards). A few people were intrigued by this forgotton technology so they made a 140-character flapper board that can show tweets from a live feed. This amazing contraption is now visible in the offices of USE-IT Brussels. His 4-character baby brother is visible in our space, he shows us who is entering the building.<br /><br /> <a href="https://vimeo.com/98027612">Check out a demonstration
+												of the 140-character display.</a>
 											<br><br>
 												<a href="img/flappers.jpg" data-lightbox="flaps"><img src="img/flappers.jpg"></a><a href="img/splitflaps2.jpg" data-lightbox="flaps"><img src="img/splitflaps2.jpg"></a><br>
 											</p>
@@ -376,7 +376,7 @@
 									</div>
 									<div class="content">
 										<p>
-											Nice! You can find our location on the bottom of this page. We recommend coming over on a Thursday evening, our social night. That way you'll have a bunch of people who can show you around and you won't be bothered by technical projects. However, you are welcome anytime when there are members present. Also look <a href="https://hackerspace.gent/wiki/index.php/Main_Page">here</a> for more info about visiting and getting in.
+											Great! You can find our location on the bottom of this page. We recommend coming over on a Thursday evening, our social night. That way you'll have a bunch of people who can show you around. However, you are welcome anytime when there are members present. To enter: call +32(0)484739588 on Thursday night and the right front gate will open automatically. At other times call 093953323, if a member is present (s)he will let you in. <a href="https://wiki.hackerspace.gent/Main_Page">Details about visiting.</a>
 										</p>
 									</div>
 								</li>
@@ -386,7 +386,7 @@
 									</div>
 									<div class="content">
 										<p>
-										Jup, we're the same people. Whitespace is our previous name. It's still remembered in our logo.	
+										Yup, we're the same people. Whitespace is our previous name. It's still remembered in our logo.
 										</p>
 									</div>
 								</li>
@@ -473,7 +473,7 @@
 							<div class="col-sm-3 text-center">
 								<div class="feature bordered mb30">
 									<h1 class="large">3</h1>
-									<h5 class="uppercase">Astronauts in<br> outer space </h5><!-- http://api.open-notify.org/astros.json 
+									<h5 class="uppercase">Astronauts in<br> outer space </h5><!-- http://api.open-notify.org/astros.json
 								</div>
 							</div>
 
@@ -499,7 +499,7 @@
 		                    </p>
 		                </div>
 		            </div>
-		            
+
 		            <div class="row">
 		                <div class="col-sm-12">
 		                    <div class="instafeed grid-gallery" data-user-name="hackerspace.gent">
@@ -507,11 +507,11 @@
 		                    </div>
 		                </div>
 		            </div>
-		            
+
 		        </div>
-		        
+
 		    </section>
-			
+
 			<a id="spacepulse"></a>
 			<section>
 				<div class="container">
@@ -535,8 +535,8 @@
 				<div class="background-image-holder">
 					<img alt="Background Image" class="background-image" src="img/moody.jpg">
 				</div>
-				
-				
+
+
 				<?php if (rand(0,1) == 0){ ?>
 				<div class="container">
 					<div class="row">
@@ -555,9 +555,9 @@ do it<br>'T ain't what you do it's the time that you do it<br>'T ain't what you 
 		            </li>
 
 		        </ol>
-				
+
 				<?php }else{ ?>
-				
+
 				<div class="container">
 					<div class="row">
 						<div class="col-sm-12 text-center">
@@ -574,12 +574,12 @@ do it<br>'T ain't what you do it's the time that you do it<br>'T ain't what you 
 		            </li>
 
 		        </ol>
-				
-				<?php } ?> 
-				
-				
-				
-				
+
+				<?php } ?>
+
+
+
+
 		    </section>
 
 
@@ -597,9 +597,9 @@ do it<br>'T ain't what you do it's the time that you do it<br>'T ain't what you 
 											<br /> We're in room 1.21</h6>
 					<h6 class="uppercase text-center"><a href="https://map.what3words.com/unroll.voices.purely">unroll.voices.purely</a></h6>
 					<!--<h6 class="uppercase text-center"><br />Open the gate on Thursdays<br /> by calling +32 (0) 484 73 95 88</h6>-->
-					
+
 					<h6 class="uppercase text-center">come alone and make sure<br> you are not being followed</h6>
-					
+
 
 				</div>
 			</section>
