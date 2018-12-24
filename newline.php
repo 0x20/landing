@@ -132,6 +132,8 @@
 				<div class="col-sm-10 col-sm-offset-1">
 					<h3 class="uppercase color-primary mb40 mb-xs-24 text-center">Schedule</h3>
 					<center>
+            
+						<a class="btn btn-lg" href="http://frab.hackerspace.gent/en/newline0x09/cfp">Participate!</a>
 						<a class="btn btn-lg" href="https://hackerspace.gent/drop/newline19/poster2019_2.png">Poster</a>
 						<a class="btn btn-lg" href="https://hackerspace.gent/landing/index.php#location">Location</a>
 					</center>
