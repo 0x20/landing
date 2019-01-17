@@ -130,7 +130,7 @@
 			<div class="row">
 				
 				<div class="col-sm-10 col-sm-offset-1">
-					<h3 class="uppercase color-primary mb40 mb-xs-24 text-center">Schedule</h3>
+					<h3 class="uppercase color-primary mb40 mb-xs-24 text-center">last year on newline</h3>
 					<center>
 						<a class="btn btn-lg" href="https://hackerspace.gent/drop/newline.png">Poster</a>
 						<a class="btn btn-lg" href="https://hackerspace.gent/landing/index.php#location">Location</a>
