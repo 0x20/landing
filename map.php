@@ -26,8 +26,8 @@
 <script>
 	var map = L.map('map').setView([51.059996, 3.73237], 18);
 
-	L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
-		attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
+	L.tileLayer('https://{s}.tile.osm.org/{z}/{x}/{y}.png', {
+		attribution: '&copy; <a href="https://osm.org/copyright">OpenStreetMap</a> contributors'
 	}).addTo(map);
 
 	var Icon = L.Icon.extend({
