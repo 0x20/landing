@@ -33,3 +33,33 @@
   padding:4px;
   width: auto;
 }
+
+/* BEGIN calendar section */
+ @media (max-width: 550px) {
+     .calendar .big-container {
+         display: none;
+     }
+ }
+ @media (min-width: 550px) {
+     .calendar .small-container {
+         display: none;
+     }
+ }
+ /* Responsive iFrame */
+ .calendar .responsive-iframe-container {
+     position: relative;
+     padding-bottom: 56.25%;
+     padding-top: 30px;
+     height: 0;
+     overflow: hidden;
+ }
+ .calendar .responsive-iframe-container iframe,   
+ .calendar .vresponsive-iframe-container object,  
+ .calendar .vresponsive-iframe-container embed {
+     position: absolute;
+     top: 0;
+     left: 0;
+     width: 100%;
+     height: 100%;
+ }
+/* END calendar section */
