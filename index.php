@@ -178,12 +178,15 @@
 					<div class="row">
 						<div class="col-sm-10 col-sm-offset-1 text-center">
 							<h3 class="uppercase color-primary mb40 mb-xs-24">Calendar</h3>
-							<div class="responsive-iframe-container big-container">
-							<iframe src="https://calendar.google.com/calendar/embed?showTitle=0&amp;showTabs=0&amp;showCalendars=0&amp;height=600&amp;wkst=2&amp;bgcolor=%23FFFFFF&amp;src=koth9eg7q353n7s1u81g2pea9g%40group.calendar.google.com&amp;color=%23691426&amp;ctz=Europe%2FBrussels" style="border-width:0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
-							</div>
+							<a href="#calendar" onclick="this.style.display = 'none'; document.getElementById('googlecalendar').style.display = ''; return false;">Show calendar</a>
+							<div id="googlecalendar" style="display:none;">
+								<div class="responsive-iframe-container big-container">
+								<iframe src="https://calendar.google.com/calendar/embed?showTitle=0&amp;showTabs=0&amp;showCalendars=0&amp;height=600&amp;wkst=2&amp;bgcolor=%23FFFFFF&amp;src=koth9eg7q353n7s1u81g2pea9g%40group.calendar.google.com&amp;color=%23691426&amp;ctz=Europe%2FBrussels" style="border-width:0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+								</div>
 
-							<div class="responsive-iframe-container small-container">
-							<iframe src="https://calendar.google.com/calendar/embed?showTitle=0&amp;showTabs=0&amp;showCalendars=0&amp;mode=AGENDA&amp;height=600&amp;wkst=2&amp;bgcolor=%23FFFFFF&amp;src=koth9eg7q353n7s1u81g2pea9g%40group.calendar.google.com&amp;color=%23691426&amp;ctz=Europe%2FBrussels" style="border-width:0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+								<div class="responsive-iframe-container small-container">
+								<iframe src="https://calendar.google.com/calendar/embed?showTitle=0&amp;showTabs=0&amp;showCalendars=0&amp;mode=AGENDA&amp;height=600&amp;wkst=2&amp;bgcolor=%23FFFFFF&amp;src=koth9eg7q353n7s1u81g2pea9g%40group.calendar.google.com&amp;color=%23691426&amp;ctz=Europe%2FBrussels" style="border-width:0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+								</div>
 							</div>
 						</div>
 					</div>
