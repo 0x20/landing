@@ -17,6 +17,30 @@
 				</ul>
 			</section>-->
 <style>
+	.color-primary {
+		color: #696969!important;;
+	}
+
+	.btn {
+		color: #A0A0A0!important;
+		border-color: #696969;
+		outline-color: #696969;
+		text-decoration-color: #696969;
+	}
+
+	.btn:hover {
+		background: #696969;
+	}
+
+	.accordion-1 .active .title {
+		background-color: #696969;
+	}
+
+	.accordion-1 .active .title:hover {
+		background-color: #696969;
+	}
+
+
 	h5 {
 		font-weight: bold;
 		text-transform: uppercase;
@@ -25,17 +49,17 @@
 	}
 
 	h5.talk {
-		color: #e7c547;
+		color: #D0D0D0;
 	}
 
 	h5.workshop {
-		color: #20B2AA;
+		color: #909090;
 	}
 
 	h5.general {
-		color: #5FB851;
+		color: #909090;
 	}
-	
+
 	p{
 		/*margin-bottom:10px;*/
 	}
@@ -44,8 +68,8 @@
 		font-weight: bold;
 		text-transform: uppercase;
 		color: #292929;
-		background-color: #e7c547;
-		border: 3px solid #e7c547;
+		background-color: #D0D0D0;
+		border: 3px solid #D0D0D0;
 		margin-right: 10px;
 	}
 
@@ -53,8 +77,8 @@
 		font-weight: bold;
 		text-transform: uppercase;
 		color: #292929;
-		background-color: #20B2AA;
-		border: 3px solid #20B2AA;
+		background-color: #909090;
+		border: 3px solid #909090;
 		margin-right: 10px;
 	}
 
@@ -62,17 +86,17 @@
 		font-weight: bold;
 		text-transform: uppercase;
 		color: #292929;
-		background-color: #5FB851;
-		border: 3px solid #5FB851;
+		background-color: #909090;
+		border: 3px solid #909090;
 		margin-right: 10px;
 	}
-	
+
 	.day {
 		font-weight: bold;
 		text-transform: uppercase;
 		color: #292929;
-		background-color: #e5692c;
-		border: 3px solid #e5692c;
+		background-color: #696969;
+		border: 3px solid #696969;
 		text-align:center;
 		font-size:18px;
 		margin:30px 0px;

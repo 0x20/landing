@@ -140,7 +140,7 @@ test2
 						<a class="btn btn-lg" href="http://frab.hackerspace.gent/en/newline0x09/cfp">Participate!</a>
 						<a class="btn btn-lg" href="https://hackerspace.gent/drop/newline19/poster2019_2.png">Poster</a>
 						<a class="btn btn-lg" href="https://hackerspace.gent/landing/index.php#location">Location</a>
-            <a class="btn btn-lg" href="https://hackerspace.gent//landing/lastnewline.php">Program 2018</a>
+            <a class="btn btn-lg" href="https://hackerspace.gent/landing/lastnewline.php">Program 2018</a>
 					</center>
 					<div class="day">Friday 26/04</div>
 					<?php parse_day(1556229600+6*3600,1556316000+6*3600); ?>
