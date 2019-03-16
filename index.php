@@ -35,27 +35,27 @@
 							<div class="row text-center">
 								<div class="col-md-offset-1 col-md-10">
 									<h2 class="mb-xs-16 uppercase bold">HACKERSPACE GENT</h2>
-									<a class="btn btn-lg inner-link" href="#home">Start Exploring</a>
+									<a class="btn btn-lg inner-link" href="#home">Hack the planet</a>
 								</div>
 							</div>
 
 						</div>
 
 					</li>
-					<li class="vid-bg image-bg overlay">
+          <li class="vid-bg image-bg overlay">
 						<div class="background-image-holder">
-							<img alt="Background Image" class="background-image" src="img/splitflaps.jpg">
+							<img alt="Background Image" class="background-image" src="img/hall2.jpg">
 						</div>
 						<div class="fs-vid-background">
 							<video muted="true" loop="">
-		                        <source src="video/splitflaps_opt_bw.mp4" type="video/mp4">
+		                        <source src="video/disco.mp4" type="video/mp4">
 		                    </video>
 						</div>
 						<div class="container v-align-transform">
 							<div class="row">
 								<div class="col-sm-12 text-center">
 									<h2 class="mb-xs-16 uppercase bold">HACKERSPACE GENT</h2>
-									<a class="btn btn-lg inner-link" href="#home">Start To Flap</a>
+									<a class="btn btn-lg inner-link" href="#home">Hack the planet</a>
 								</div>
 							</div>
 
@@ -85,7 +85,27 @@
 							<div class="row text-center">
 								<div class="col-md-offset-1 col-md-10">
 									<h2 class="mb-xs-16 uppercase bold">HACKERSPACE GENT</h2>
-									<a class="btn btn-lg inner-link" href="#home">Start Tasting</a>
+									<a class="btn btn-lg inner-link" href="#home">Hack the planet</a>
+								</div>
+							</div>
+
+						</div>
+
+					</li>
+					<li class="vid-bg image-bg overlay">
+						<div class="background-image-holder">
+							<img alt="Background Image" class="background-image" src="img/splitflaps.jpg">
+						</div>
+						<div class="fs-vid-background">
+							<video muted="true" loop="">
+		                        <source src="video/splitflaps_opt_bw.mp4" type="video/mp4">
+		                    </video>
+						</div>
+						<div class="container v-align-transform">
+							<div class="row">
+								<div class="col-sm-12 text-center">
+									<h2 class="mb-xs-16 uppercase bold">HACKERSPACE GENT</h2>
+									<a class="btn btn-lg inner-link" href="#home">Hack the planet</a>
 								</div>
 							</div>
 
@@ -485,47 +505,6 @@
 				</div>
 
 			</section>-->
-			<a id="instagram"></a>
-			<section class="bg-dark">
-		        <div class="container">
-		            <div class="row">
-		                <div class="col-sm-12 text-center">
-		                    <h4 class="uppercase mb16">HSG on Instagram</h4>
-		                    <p class="lead mb64">
-		                    </p>
-		                </div>
-		            </div>
-
-		            <div class="row">
-		                <div class="col-sm-12">
-		                    <div class="instafeed grid-gallery" data-user-name="hackerspace.gent">
-		                        <ul></ul>
-		                    </div>
-		                </div>
-		            </div>
-
-		        </div>
-
-		    </section>
-
-			<a id="spacepulse"></a>
-			<section>
-				<div class="container">
-					<div class="row v-align-children">
-						<div class="col-md-7 col-sm-6 text-center mb-xs-24">
-							<a href="https://hackerspace.gent/pam/pameplot.png" data-lightbox="pulse"><img class="cast-shadow" alt="Screenshot" src="https://hackerspace.gent/pam/pameplot.png"></a>
-						</div>
-						<div class="col-md-4 col-md-offset-1 col-sm-5 col-sm-offset-1">
-							<h3>Space Pulse</h3>
-							<p>
-								This image teaches us something about the activity in the space last week, but we don't know what exactly..
-							</p>
-						</div>
-					</div>
-
-				</div>
-
-			</section>
 
 			<section class="page-title page-title-3 image-bg overlay parallax">
 				<div class="background-image-holder">

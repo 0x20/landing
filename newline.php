@@ -1,4 +1,8 @@
-<?php $slider = true; include 'layout_top.php'; ?>
+<?php
+ini_set('display_errors', 1);
+ini_set('display_startup_errors', 1);
+error_reporting(E_ALL);
+$slider = true; include 'layout_top.php'; ?>
 			<!--<section class="image-slider slider-all-controls parallax controls-inside pt0 pb0 height-70" style="background: #292929;">
 				<ul class="slides">
 					<li class="overlay image-bg" >
@@ -139,7 +143,7 @@ test2
             
 						<a class="btn btn-lg" href="http://frab.hackerspace.gent/en/newline0x09/cfp">Participate!</a>
 						<a class="btn btn-lg" href="https://hackerspace.gent/drop/newline19/poster2019_2.png">Poster</a>
-						<a class="btn btn-lg" href="https://hackerspace.gent/landing/index.php#location">Location</a>
+						<a class="btn btn-lg" href="newline.php#location">Location</a>
             <a class="btn btn-lg" href="https://hackerspace.gent/landing/lastnewline.php">Program 2018</a>
 					</center>
 					<div class="day">Friday 26/04</div>
@@ -229,6 +233,76 @@ test2
 
 			</section>
 
-	
+			<section class="page-title page-title-3 image-bg overlay parallax">
+				<div class="background-image-holder">
+					<img alt="Background Image" class="background-image" src="img/moody.jpg">
+				</div>
+
+
+				<?php if (rand(0,1) == 0){ ?>
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-12 text-center">
+							<h4 class="uppercase mb0">“Oh 't ain't what you do it's the place that you
+do it<br>'T ain't what you do it's the time that you do it<br>'T ain't what you do it's the way that you do it<br>That's what gets results”</h3>
+		                </div>
+		            </div>
+
+		        </div>
+
+		        <ol class="breadcrumb breadcrumb-2">
+
+		            <li>
+		                <a href="#">- Ella Fitzgerald</a>
+		            </li>
+
+		        </ol>
+
+				<?php }else{ ?>
+
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-12 text-center">
+							<h4 class="uppercase mb0">“My primary goal of hacking was the intellectual curiosity, the seduction of adventure.”</h3>
+		                </div>
+		            </div>
+
+		        </div>
+
+		        <ol class="breadcrumb breadcrumb-2">
+
+		            <li>
+		                <a href="#">- Kevin Mitnick</a>
+		            </li>
+
+		        </ol>
+
+				<?php } ?>
+
+
+
+
+		    </section>
+
+				<a id="location"></a>
+			<section class="image-square right">
+				<div class="col-md-6 p0 image">
+					<div class="map-holder background-image-holder">
+						<iframe src="map.php"></iframe>
+					</div>
+				</div>
+				<div class="col-md-6 content">
+					<h6 class="uppercase text-center"><br /><a href="tel:+3293953323">09 395 33 23</a><br>
+					info@0x20.be</h6>
+					<h6 class="uppercase text-center">Blekerijstraat 75, 9000 Ghent, Belgium
+											<br /> We're in room 1.21</h6>
+					<h6 class="uppercase text-center"><a href="https://map.what3words.com/unroll.voices.purely">unroll.voices.purely</a></h6>
+					<!--<h6 class="uppercase text-center"><br />Open the gate on Thursdays<br /> by calling +32 (0) 484 73 95 88</h6>-->
+
+					<h6 class="uppercase text-center">come alone and make sure<br> you are not being followed</h6>
+
+
+				</div>
+			</section>
 
 	<?php include 'layout_bottom.php'; ?>

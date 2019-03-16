@@ -10,7 +10,7 @@
 
 						<div class="col-sm-4 text-center">
 							<span class="fade-half">
-								© Copyright 2016-2056 hackerspace.gent Vzw<br>Some Rights Reserved<br />Powered by <a href="http://yolo.sexy/">YOLO Sexy Webdesign</a> and <a href="http://bloemist.ninja">Bloemist</a>
+								© Copyright 2016-2042 hackerspace.gent VZW<br>Some Rights Reserved<br />Powered by <a href="http://yolo.sexy/">YOLO Sexy Webdesign</a>,<br> <a href="http://pauperhosting.nl/">Pauperhosting</a> and <a href="http://bloemi.st">Bloemist</a>
 							</span>
 						</div>
 
@@ -54,10 +54,9 @@
     <script>
         $(document).ready(function() {
             $('#bootstrapModalFullCalendar').fullCalendar({
-                googleCalendarApiKey: 'AIzaSyB5BCTDN5vLfegBap8qpo0N2PX_fKYmL9o',
                 events: 
 			<?php
-			echo file_get_contents('http://hub.kwitz.net/data/events/event_output_r.php');
+			//echo file_get_contents('http://hub.kwitz.net/data/events/event_output_r.php');
 			?>,
                 firstDay: 1,
                 header: {
@@ -92,24 +91,6 @@
 			
 			
 			
-				var Spectra = {
-  instaToken: '5738764140.70d477f.d10c7d5f9bc94977b6ea0f6e53dfe01d',
-  instaID: ' 70d477fbcea2413690e32b7c15163261',
-
-  init: function () {
-    $.fn.spectragram.accessData = {
-      accessToken: this.instaToken,
-      clientID: this.instaID
-    };
-
-    $('.instafeed').spectragram('getUserFeed',{
-      max: 4,
-      query: 'hackerspace.gent'
-    });
-  }
-}
-
-Spectra.init();
     </script>
 
     </body>

@@ -49,7 +49,7 @@ foreach ($json as $k => $v) {
 	}
 }
 ?>
-	<body class="scroll-assist">
+	<body class="scroll-assist boxed-layout btn-rounded">
 
 		<div class="nav-container">
 		<a id="top"></a>
@@ -73,8 +73,7 @@ foreach ($json as $k => $v) {
 								<li>
 									<a href="index.php">Home</a>
 								</li>
-								                <li><a href="http://wiki.hackerspace.gent/">Wiki</a></li>
-										<li><a href="http://hub.hackerspace.gent/">Hub</a></li>
+								    <li><a href="http://wiki.hackerspace.gent/">Wiki</a></li>
 										<li><a href="http://pad.hackerspace.gent/">Pad</a></li>
                 <li><a href="newline.php">Newline</a></li>
 							</ul>
