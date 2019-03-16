@@ -57,7 +57,7 @@
                 googleCalendarApiKey: 'AIzaSyB5BCTDN5vLfegBap8qpo0N2PX_fKYmL9o',
                 events: 
 			<?php
-			echo file_get_contents('https://hub.kwitz.net/data/events/event_output_r.php');
+			echo file_get_contents('http://hub.kwitz.net/data/events/event_output_r.php');
 			?>,
                 firstDay: 1,
                 header: {
