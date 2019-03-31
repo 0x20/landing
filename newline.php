@@ -146,14 +146,15 @@ test2
 						<a class="btn btn-lg" href="newline.php#location">Location</a>
             <a class="btn btn-lg" href="https://hackerspace.gent/landing/lastnewline.php">Program 2018</a>
 					</center>
+          
+					<div class="day">Time Unknown</div>
+					<?php parse_day(0,1000000000); ?>
 					<div class="day">Friday 26/04</div>
 					<?php parse_day(1556229600+6*3600,1556316000+6*3600); ?>
 					<div class="day">Saturday 27/04</div>
 					<?php parse_day(1556316000+6*3600,1556416800+6*3600); ?>
 					<div class="day">Sunday 28/04</div>
 					<?php parse_day(1556416800+6*3600,1556488800+6*3600); ?>
-					<div class="day">Time Unknown</div>
-					<?php parse_day(0,1000000000); ?>
 				</div>             
 			</div>
 

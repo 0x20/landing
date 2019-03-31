@@ -49,7 +49,7 @@ foreach ($json as $k => $v) {
 	}
 }
 ?>
-	<body class="scroll-assist boxed-layout btn-rounded" style="background:#202020 url('img/testbg.png') repeat center center;">
+	<body class="scroll-assist boxed-layout btn-rounded" style="background:#202020 url('img/testbg.png') repeat center center;zoom: 93%">
 
 		<div class="nav-container">
 		<a id="top"></a>
