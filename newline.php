@@ -140,13 +140,10 @@ test2
 				<div class="col-sm-10 col-sm-offset-1">
 					<h3 class="uppercase color-primary mb40 mb-xs-24 text-center">Schedule</h3>
 					<center>
-            
-						<a class="btn btn-lg" href="http://frab.hackerspace.gent/en/newline0x09/cfp">Participate!</a>
 						<a class="btn btn-lg" href="https://hackerspace.gent/drop/newline19/poster2019_2.png">Poster</a>
 						<a class="btn btn-lg" href="newline.php#location">Location</a>
-            <a class="btn btn-lg" href="https://hackerspace.gent/landing/lastnewline.php">Program 2018</a>
+						<a class="btn btn-lg" href="https://hackerspace.gent/landing/lastnewline.php">Program 2018</a>
 					</center>
-          
 					<div class="day">Time Unknown</div>
 					<?php parse_day(0,1000000000); ?>
 					<div class="day">Friday 26/04</div>
