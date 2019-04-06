@@ -36,14 +36,34 @@ test2
 		color: #e7c547;
 	}
 
+	h5.talk a {
+		color: #e7c547;
+	}
+
 	h5.workshop {
+		color: #20B2AA;
+	}
+
+	h5.workshop a {
 		color: #20B2AA;
 	}
 
 	h5.general {
 		color: #5FB851;
 	}
-	
+
+	h5.general a {
+		color: #5FB851;
+	}
+
+	h5.concert {
+		color: #5FB851;
+	}
+
+	h5.concert a {
+		color: #5FB851;
+	}
+
 	p{
 		/*margin-bottom:10px;*/
 	}
@@ -74,7 +94,16 @@ test2
 		border: 3px solid #5FB851;
 		margin-right: 10px;
 	}
-	
+
+	span.concert {
+		font-weight: bold;
+		text-transform: uppercase;
+		color: #292929;
+		background-color: #5FB851;
+		border: 3px solid #5FB851;
+		margin-right: 10px;
+	}
+
 	.day {
 		font-weight: bold;
 		text-transform: uppercase;
@@ -88,47 +117,34 @@ test2
 </style>
 
 
-
-
 <?php
-							$json = file_get_contents('../newline/2019/json/data.json');
+							$json = file_get_contents('../newline/2019/json/schedule.json');
 							$json_data_raw = json_decode($json,true);
-							$json_data = $json_data_raw['event_schedule'];
-							//print_r($json_data_raw['event_schedule']);
-							//ksort($json_data);
+							$json_data = $json_data_raw['schedule']['conference']['days'];
 
 							// sort on event start time
 							function cmp_event_start($a, $b) {
-								if ($a['start'] == $b['start']) {
+								if ($a['date'] == $b['date']) {
 									return 0;
 								}
-								return ($a['start'] < $b['start']) ? -1 : 1;
+								return ($a['date'] < $b['date']) ? -1 : 1;
 							}
-							usort($json_data, "cmp_event_start");
-							
-							function parse_day($from,$to){
+
+							function parse_day($day_index){
 								global $json_data;
-								foreach ($json_data as $key => $value){
-									if(is_numeric($value['start']) and $value['start'] >= $from and $value['start'] < $to){
-									
-										echo "<h5 class='".$value['type']."'>";
-
-										echo "<span class='".$value['type']."'>&nbsp;".$value['type']."&nbsp;</span>";
-
-										if (date('H:i', $value['start']) == "00:01" or date('Y', $value['start']) == "1970" or $value['scheduled'] == 'day'){
-											echo "xx:xx - xx:xx";
-										}else{
-											echo date('d-m-Y H:i', $value['start'])." - ".date('H:i', $value['start']+$value['duration']);
-										}
-
-										echo " : ".$value['name'];
-
-										echo "</h5>";
-
-										echo "<p>".$value['description']."</p>";
-										
-									}
-									
+								$all_events = array();
+								foreach ($json_data[$day_index]['rooms'] as $room => $events) {
+									$all_events = array_merge($all_events, $events);
+								}
+								usort($all_events, "cmp_event_start");
+								foreach ($all_events as $event)
+								{
+									if ($event['type'] == "lecture") $event['type'] = "talk";
+									if ($event['type'] == "other") $event['type'] = "general";
+									echo "\n<h5 class='".$event['type']."'>";
+									echo "<span class='".$event['type']."'>&nbsp;".$event['type']."&nbsp;</span>".$event['start']."\n";
+									echo " : <a href=\"".$event['url']."\">".$event['title']."</a></h5>\n";
+									echo "<p>".$event['abstract']."</p>\n";
 								}
 							}
 							?>
@@ -136,7 +152,6 @@ test2
 	<section class="bg-dark">
 		<div class="container">
 			<div class="row">
-				
 				<div class="col-sm-10 col-sm-offset-1">
 					<h3 class="uppercase color-primary mb40 mb-xs-24 text-center">Schedule</h3>
 					<center>
@@ -144,15 +159,17 @@ test2
 						<a class="btn btn-lg" href="newline.php#location">Location</a>
 						<a class="btn btn-lg" href="https://hackerspace.gent/landing/lastnewline.php">Program 2018</a>
 					</center>
+					<!--
 					<div class="day">Time Unknown</div>
-					<?php parse_day(0,1000000000); ?>
+					<?php //parse_day(0); ?>
+					-->
 					<div class="day">Friday 26/04</div>
-					<?php parse_day(1556229600+6*3600,1556316000+6*3600); ?>
+					<?php parse_day(0); ?>
 					<div class="day">Saturday 27/04</div>
-					<?php parse_day(1556316000+6*3600,1556416800+6*3600); ?>
+					<?php parse_day(1); ?>
 					<div class="day">Sunday 28/04</div>
-					<?php parse_day(1556416800+6*3600,1556488800+6*3600); ?>
-				</div>             
+					<?php parse_day(2); ?>
+				</div>
 			</div>
 
 		</div>
