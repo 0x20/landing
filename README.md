@@ -1,3 +1,7 @@
+# This repo is no longer updated!
+
+The code for our current website is developed in another repo, ask Bloemist for access.
+
 # How this repository works
 
 Everytime a commit is pushed to [this repository](https://github.com/0x20/landing), github posts to `https://hackerspace.gent/landing/pull.php` triggering a `git pull` in the `hackerspace.gent/landing` repository.
