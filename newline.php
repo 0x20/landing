@@ -118,36 +118,39 @@ test2
 
 
 <?php
-							$json = file_get_contents('../newline/2019/json/schedule.json');
-							$json_data_raw = json_decode($json,true);
-							$json_data = $json_data_raw['schedule']['conference']['days'];
+	$json = file_get_contents('../newline/2019/json/schedule.json');
+	$json_data_raw = json_decode($json,true);
+	$json_data = $json_data_raw['schedule']['conference']['days'];
 
-							// sort on event start time
-							function cmp_event_start($a, $b) {
-								if ($a['date'] == $b['date']) {
-									return 0;
-								}
-								return ($a['date'] < $b['date']) ? -1 : 1;
-							}
+	// sort on event start time
+	function cmp_event_start($a, $b) {
+		if ($a['date'] == $b['date']) {
+			return 0;
+		}
+		return ($a['date'] < $b['date']) ? -1 : 1;
+	}
 
-							function parse_day($day_index){
-								global $json_data;
-								$all_events = array();
-								foreach ($json_data[$day_index]['rooms'] as $room => $events) {
-									$all_events = array_merge($all_events, $events);
-								}
-								usort($all_events, "cmp_event_start");
-								foreach ($all_events as $event)
-								{
-									if ($event['type'] == "lecture") $event['type'] = "talk";
-									if ($event['type'] == "other") $event['type'] = "general";
-									echo "\n<h5 class='".$event['type']."'>";
-									echo "<span class='".$event['type']."'>&nbsp;".$event['type']."&nbsp;</span>".$event['start']."\n";
-									echo " : <a href=\"".$event['url']."\">".$event['title']."</a></h5>\n";
-									echo "<p>".$event['abstract']."</p>\n";
-								}
-							}
-							?>
+	function parse_day($day_index){
+		global $json_data;
+		$all_events = array();
+		foreach ($json_data[$day_index]['rooms'] as $room => $events) {
+			$all_events = array_merge($all_events, $events);
+		}
+		usort($all_events, "cmp_event_start");
+		foreach ($all_events as $event)
+		{
+			if ($event['type'] == "lecture") $event['type'] = "talk";
+			if ($event['type'] == "other") $event['type'] = "general";
+			$duration = (new DateTime("00:00"))->diff(new DateTime($event['duration']));
+			$endtime = (new DateTime($event['start']))->add($duration);
+			$event['stop'] = $endtime->format("H:i");
+			echo "\n<h5 class='".$event['type']."'>";
+			echo "<span class='".$event['type']."'>&nbsp;".$event['type']."&nbsp;</span>".$event['start']." - ".$event['stop']."\n";
+			echo " : <a href=\"".$event['url']."\">".$event['title']."</a></h5>\n";
+			echo "<p>".$event['abstract']."</p>\n";
+		}
+	}
+?>
 
 	<section class="bg-dark">
 		<div class="container">
