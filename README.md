@@ -1,6 +1,7 @@
 # This repo is no longer updated!
 
 The code for our current website is developed in another repo, ask Bloemist for access.
+https://gitlab.com/Bloemist/landingv2
 
 # How this repository works
 
